@@ -1,0 +1,8 @@
+package com.project.loanApprovalPrediction;
+
+public class LapByDecisionTree {
+	public static void main(String[] args) {
+		
+	}
+
+}

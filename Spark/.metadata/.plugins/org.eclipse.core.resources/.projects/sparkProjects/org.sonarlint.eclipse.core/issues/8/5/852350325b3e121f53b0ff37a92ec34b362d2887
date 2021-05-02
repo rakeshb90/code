@@ -1,0 +1,56 @@
+
+g	java:S125z"<This block of commented-out lines of code should be removed.(ÛªŸHƒyRMAJORZ
+CODE_SMELL
+l	java:S125D"<This block of commented-out lines of code should be removed.(áÒùøÿÿÿÿHşxRMAJORZ
+CODE_SMELL
+e	java:S106Ö"9Replace this use of System.out or System.err by a logger.(ÿ§“H‡yRMAJORZ
+CODE_SMELL
+c
+java:S1135’"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH„yRINFOZ
+CODE_SMELL
+}
+java:S1192?"NDefine a constant instead of duplicating this literal "Self_Employed" 5 times.(™şü‰HêxRCRITICALZ
+CODE_SMELL
+m	java:S125¦"<This block of commented-out lines of code should be removed.(è´…ÿÿÿÿÿH…yRMAJORZ
+CODE_SMELL
+ƒ
+java:S1192±"NDefine a constant instead of duplicating this literal "Loan_StatusIn" 3 times.(ûÄ®ÏıÿÿÿÿHáxRCRITICALZ
+CODE_SMELL
+…
+java:S1192B"QDefine a constant instead of duplicating this literal "Loan_Amount_Term" 4 times.(›¦’…úÿÿÿÿHåxRCRITICALZ
+CODE_SMELL
+d	java:S106w"9Replace this use of System.out or System.err by a logger.(ÿÑğHyRMAJORZ
+CODE_SMELL
+i	java:S106x"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿH‚yRMAJORZ
+CODE_SMELL
+y
+java:S1192>"KDefine a constant instead of duplicating this literal "Dependents" 5 times.(ôÕ‰aHöxRCRITICALZ
+CODE_SMELL
+z
+java:S1192A"KDefine a constant instead of duplicating this literal "LoanAmount" 3 times.(°ÕÑ»HÓxRCRITICALZ
+CODE_SMELL
+j	java:S106Ù"9Replace this use of System.out or System.err by a logger.(ô‘ôşÿÿÿÿH‰yRMAJORZ
+CODE_SMELL
+g	java:S125Ş"<This block of commented-out lines of code should be removed.(…ŠH‹yRMAJORZ
+CODE_SMELL
+}
+java:S1192e"IDefine a constant instead of duplicating this literal "features" 3 times.(åçéòûÿÿÿÿH×xRCRITICALZ
+CODE_SMELL
+Œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘Ä•Ë8™…ÉÆ’/H½yRMINORZ
+CODE_SMELL
+…
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùİ¢ÌHıxRMINORZ
+CODE_SMELL
+ƒ
+java:S1192@"ODefine a constant instead of duplicating this literal "Credit_History" 5 times.(»Ù®¨øÿÿÿÿHğxRCRITICALZ
+CODE_SMELL
+w
+java:S1192="HDefine a constant instead of duplicating this literal "Married" 5 times.(’×Ö‡HÛxRCRITICALZ
+CODE_SMELL
+v
+java:S1192<"GDefine a constant instead of duplicating this literal "Gender" 5 times.(¢©ˆûHÍxRCRITICALZ
+CODE_SMELL
+j	java:S106Ø"9Replace this use of System.out or System.err by a logger.(’–‰îüÿÿÿÿHˆyRMAJORZ
+CODE_SMELL
+j	java:S106ä"9Replace this use of System.out or System.err by a logger.(¥ÑˆÍùÿÿÿÿHŠyRMAJORZ
+CODE_SMELL

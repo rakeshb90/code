@@ -1,0 +1,38 @@
+
+c
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ˆéÃÄ/HËiRMINORZ
+CODE_SMELL
+k	java:S106'"9Replace this use of System.out or System.err by a logger.(ìì¼¤8ˆéÃÄ/HÌiRMAJORZ
+CODE_SMELL
+o
+java:S1128"<Remove this unused import 'org.apache.spark.sql.RowFactory'.(Ã÷éâ8ˆéÃÄ/HÍiRMINORZ
+CODE_SMELL
+s	java:S125-"<This block of commented-out lines of code should be removed.(Üá…ïúÿÿÿÿ8ˆéÃÄ/HÎiRMAJORZ
+CODE_SMELL
+t
+java:S1128"ARemove this unused import 'org.apache.spark.sql.types.DataTypes'.(•ÿØè8ˆéÃÄ/HÏiRMINORZ
+CODE_SMELL
+n	java:S125)"<This block of commented-out lines of code should be removed.(ÄÊÒµ8ˆéÃÄ/HĞiRMAJORZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ˆéÃÄ/HÒiRMINORZ
+CODE_SMELL
+p	java:S106%"9Replace this use of System.out or System.err by a logger.(†ï¹şÿÿÿÿ8ˆéÃÄ/HÓiRMAJORZ
+CODE_SMELL
+n	java:S125&"<This block of commented-out lines of code should be removed.(íÍ½é8ˆéÃÄ/HÔiRMAJORZ
+CODE_SMELL
+s
+java:S1128"@Remove this unused import 'org.apache.spark.sql.types.Metadata'.(óé´Ã8ˆéÃÄ/HÕiRMINORZ
+CODE_SMELL
+{
+java:S1128"CRemove this unused import 'org.apache.spark.sql.types.StructField'.(ñÑ‡Çùÿÿÿÿ8ˆéÃÄ/HÖiRMINORZ
+CODE_SMELL
+n	java:S125!"<This block of commented-out lines of code should be removed.(ı®Èâ8ˆéÃÄ/H×iRMAJORZ
+CODE_SMELL
+z
+java:S1128"BRemove this unused import 'org.apache.spark.sql.types.StructType'.(Èå’¡øÿÿÿÿ8ˆéÃÄ/HØiRMINORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(«ç„àÿÿÿÿÿ8† ‘Ê/HÙiRMAJORZ
+CODE_SMELL
+n	java:S125$"<This block of commented-out lines of code should be removed.(šı«8ˆéÃÄ/HÚiRMAJORZ
+CODE_SMELL

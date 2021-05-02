@@ -1,0 +1,59 @@
+
+n	java:S125R"<This block of commented-out lines of code should be removed.(€ôñ‰8ĞÖ‹î/H«[RMAJORZ
+CODE_SMELL
+n	java:S1252"<This block of commented-out lines of code should be removed.(…®ôè8¼Ù­ˆ‘/H®[RMAJORZ
+CODE_SMELL
+‚
+java:S1192'"GDefine a constant instead of duplicating this literal "Gender" 3 times.(¦ÿšçşÿÿÿÿ8§òÂğ/H°[RCRITICALZ
+CODE_SMELL
+p	java:S106]"9Replace this use of System.out or System.err by a logger.(°«ğÉûÿÿÿÿ8µ‡¬ñ/H´[RMAJORZ
+CODE_SMELL
+ƒ
+java:S1192("NDefine a constant instead of duplicating this literal "Self_Employed" 3 times.(°Š8…Åø/Hµ[RCRITICALZ
+CODE_SMELL
+~
+java:S1128	"FRemove this unused import 'org.apache.spark.ml.feature.OneHotEncoder'.(Í³øàøÿÿÿÿ8¼Ù­ˆ‘/H¹[RMINORZ
+CODE_SMELL
+y
+java:S1128
+"FRemove this unused import 'org.apache.spark.ml.feature.StringIndexer'.(Êæ³·8¼Ù­ˆ‘/Hº[RMINORZ
+CODE_SMELL
+Œ
+java:S11921"QDefine a constant instead of duplicating this literal "Loan_Amount_Term" 3 times.(®Øòôÿÿÿÿÿ8§òÂğ/H»[RCRITICALZ
+CODE_SMELL
+y
+java:S1854="FRemove this useless assignment to local variable "traningAndTestData".(Šè†Ş8µ‡¬ñ/H¿[RMAJORZ
+CODE_SMELL
+€
+java:S11920"KDefine a constant instead of duplicating this literal "LoanAmount" 4 times.(õìå8Ûêªğ/HÀ[RCRITICALZ
+CODE_SMELL
+~
+java:S1192)"HDefine a constant instead of duplicating this literal "Married" 3 times.(­ıÃ‘8…Åø/HÅ[RCRITICALZ
+CODE_SMELL
+j	java:S106U"9Replace this use of System.out or System.err by a logger.(Ñôâ98¢³ù/HÉ[RMAJORZ
+CODE_SMELL
+k	java:S106\"9Replace this use of System.out or System.err by a logger.(Ş…Á8¢³ù/HÊ[RMAJORZ
+CODE_SMELL
+„
+java:S1192-"NDefine a constant instead of duplicating this literal "Property_Area" 3 times.(Ú®ø8…Åø/HË[RCRITICALZ
+CODE_SMELL
+€
+java:S1192+"KDefine a constant instead of duplicating this literal "Dependents" 3 times.(Ê³´8…Åø/HÏ[RCRITICALZ
+CODE_SMELL
+†
+java:S1192."PDefine a constant instead of duplicating this literal "ApplicantIncome" 3 times.(Ÿßéó8§òÂğ/HÓ[RCRITICALZ
+CODE_SMELL
+j
+java:S1481="7Remove this unused "traningAndTestData" local variable.(Šè†Ş8µ‡¬ñ/H×[RMINORZ
+CODE_SMELL
+k	java:S106V"9Replace this use of System.out or System.err by a logger.(û­í¤8¢³ù/HØ[RMAJORZ
+CODE_SMELL
+…
+java:S1192,"ODefine a constant instead of duplicating this literal "Credit_History" 3 times.(•Ú÷Ù8…Åø/HÙ[RCRITICALZ
+CODE_SMELL
+…
+java:S1192*"JDefine a constant instead of duplicating this literal "Education" 3 times.(¬õİ²üÿÿÿÿ8…Åø/Hİ[RCRITICALZ
+CODE_SMELL
+‡
+java:S1192/"RDefine a constant instead of duplicating this literal "CoapplicantIncome" 3 times.(áÂb8§òÂğ/Há[RCRITICALZ
+CODE_SMELL

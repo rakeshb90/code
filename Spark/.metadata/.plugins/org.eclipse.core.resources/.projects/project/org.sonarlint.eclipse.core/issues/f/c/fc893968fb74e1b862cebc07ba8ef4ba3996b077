@@ -1,0 +1,11 @@
+
+€
+java:S2095"RUse try-with-resources or close this "JavaStreamingContext" in a "finally" clause.(‘àã8ç¯å²‘/H‹ARBLOCKERZBUG
+Z
+java:S1481"'Remove this unused "sc" local variable.(‘àã8ç¯å²‘/HARMINORZ
+CODE_SMELL
+i
+java:S1854"6Remove this useless assignment to local variable "sc".(‘àã8ç¯å²‘/HŒARMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(¯åÑÓşÿÿÿÿ8Š¢ö²‘/H•ARMAJORZ
+CODE_SMELL

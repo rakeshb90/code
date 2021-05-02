@@ -1,0 +1,31 @@
+
+[
+java:S3740"/Provide the parametrized type for this generic.(Œ¦ˆ†HÎRMAJORZ
+CODE_SMELL
+[
+java:S3740"/Provide the parametrized type for this generic.(ž¥‰…HÏRMAJORZ
+CODE_SMELL
+`
+java:S3740"/Provide the parametrized type for this generic.(‚Ø‡÷øÿÿÿÿHÍRMAJORZ
+CODE_SMELL
+`
+java:S3740"/Provide the parametrized type for this generic.(éñ‹àýÿÿÿÿHÐRMAJORZ
+CODE_SMELL
+`
+java:S3740"/Provide the parametrized type for this generic.(¹€ÍÄúÿÿÿÿHÑRMAJORZ
+CODE_SMELL
+i	java:S106)"9Replace this use of System.out or System.err by a logger.(ñ™™­ùÿÿÿÿHÙRMAJORZ
+CODE_SMELL
+l	java:S125%"<This block of commented-out lines of code should be removed.(àÏ‡´üÿÿÿÿHÖRMAJORZ
+CODE_SMELL
+i	java:S106$"9Replace this use of System.out or System.err by a logger.(«³Þ†úÿÿÿÿHÕRMAJORZ
+CODE_SMELL
+Z
+java:S1128")Remove this unused import 'scala.Tuple3'.(†å…ØýÿÿÿÿHÓRMINORZ
+CODE_SMELL
+`
+java:S3740 "/Provide the parametrized type for this generic.(¸ÜÂÃûÿÿÿÿHÒRMAJORZ
+CODE_SMELL
+j
+java:S1128">Remove this unused import 'org.apache.spark.api.java.JavaRDD'.(¼¦‘ HÔRMINORZ
+CODE_SMELL

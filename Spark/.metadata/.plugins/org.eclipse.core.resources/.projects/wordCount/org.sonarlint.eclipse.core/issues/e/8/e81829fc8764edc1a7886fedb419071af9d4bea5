@@ -1,0 +1,28 @@
+
+[
+java:S3740"/Provide the parametrized type for this generic.(Þšž¤HÔRMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›ç™üHÕRMINORZ
+CODE_SMELL
+Z
+java:S1128")Remove this unused import 'scala.Tuple3'.(†å…ØýÿÿÿÿHÖRMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(þëÐÔþÿÿÿÿH×RMAJORZ
+CODE_SMELL
+i
+java:S1197"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿHØRMINORZ
+CODE_SMELL
+[
+java:S3740"/Provide the parametrized type for this generic.(Þšž¤HÙRMAJORZ
+CODE_SMELL
+X
+java:S1612",Replace this lambda with a method reference.(˜•òçHÚRMINORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(ÐŒ·8»Êÿ /HÛRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(˜•òçHÜRMAJORZ
+CODE_SMELL
+u
+java:S2095"NUse try-with-resources or close this "JavaSparkContext" in a "finally" clause.(ø©ÊÇHÝRBLOCKERZBUG
+p	java:S106 "9Replace this use of System.out or System.err by a logger.(ž˜ûÏÿÿÿÿÿ8ˆ½Óð/HÞRMAJORZ
+CODE_SMELL

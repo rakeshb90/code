@@ -1,0 +1,5 @@
+package com.rakesh.spark.wordCount;
+
+public class MobileRating {
+
+}

@@ -1,0 +1,22 @@
+
+[
+java:S3740"/Provide the parametrized type for this generic.(ÂšÓ¶HÓRMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(Ð¥£þÿÿÿÿ8ã‹¡/HÔRMAJORZ
+CODE_SMELL
+_
+java:S1612",Replace this lambda with a method reference.(á­Ö8ìÏð/HÕRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(÷¶Ì”üÿÿÿÿ8ìÏð/HÖRMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›ç™üH×RMINORZ
+CODE_SMELL
+[
+java:S3740"/Provide the parametrized type for this generic.(ÂšÓ¶HØRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(á­Ö8ŽÖ«‚/HÙRMAJORZ
+CODE_SMELL
+t
+java:S2095"NUse try-with-resources or close this "JavaSparkContext" in a "finally" clause.(Û›êHÚRBLOCKERZBUG
+k	java:S106"9Replace this use of System.out or System.err by a logger.(÷ÜÛ8ÞÃ ä/HÛRMAJORZ
+CODE_SMELL

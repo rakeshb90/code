@@ -1,0 +1,54 @@
+
+‘
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(±æÆœûÿÿÿÿ8¿øÎÀ/HàRMINORZ
+CODE_SMELL
+‘
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(î°°¢ùÿÿÿÿ8¿øÎÀ/HáRMINORZ
+CODE_SMELL
+Œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(œÌöÎ8¿øÎÀ/HâRMINORZ
+CODE_SMELL
+‘
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(†ê¦Æıÿÿÿÿ8£ ğã/HãRMINORZ
+CODE_SMELL
+‘
+java:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(ïÉĞÃøÿÿÿÿ8¿øÎÀ/HäRMINORZ
+CODE_SMELL
+Œ
+java:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").(éÓÒ«8¿øÎÀ/HåRMINORZ
+CODE_SMELL
+g
+java:S1481,"/Remove this unused "chapterRdd" local variable.(»ö¸¥ÿÿÿÿÿ8£ ğã/HæRMINORZ
+CODE_SMELL
+v
+java:S1854,">Remove this useless assignment to local variable "chapterRdd".(»ö¸¥ÿÿÿÿÿ8£ ğã/HçRMAJORZ
+CODE_SMELL
+‘
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(á‘¸¦ÿÿÿÿÿ8¿øÎÀ/HèRMINORZ
+CODE_SMELL
+‘
+java:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(˜Ø¼íúÿÿÿÿ8£ ğã/HéRMINORZ
+CODE_SMELL
+~
+java:S3973'"HUse indentation to denote the code conditionally executed by this "for".( ´ÀÍ8¿øÎÀ/HêRCRITICALZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ê½ˆå8£ ğã/HìRMAJORZ
+CODE_SMELL
+s	java:S1254"<This block of commented-out lines of code should be removed.(˜„ìÊûÿÿÿÿ8£ ğã/HíRMAJORZ
+CODE_SMELL
+j	java:S106E"9Replace this use of System.out or System.err by a logger.(×…í>8£ ğã/HòRMAJORZ
+CODE_SMELL
+p	java:S106J"9Replace this use of System.out or System.err by a logger.(©ÈË·øÿÿÿÿ8£ ğã/HóRMAJORZ
+CODE_SMELL
+‘
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(±æÆœûÿÿÿÿ8¿øÎÀ/HôRMINORZ
+CODE_SMELL
+‘
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(¸èâüÿÿÿÿ8£ ğã/HõRMINORZ
+CODE_SMELL
+‘
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(±æÆœûÿÿÿÿ8¿øÎÀ/HöRMINORZ
+CODE_SMELL
+Œ
+java:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(íÖ¹Ø8¿øÎÀ/H÷RMINORZ
+CODE_SMELL

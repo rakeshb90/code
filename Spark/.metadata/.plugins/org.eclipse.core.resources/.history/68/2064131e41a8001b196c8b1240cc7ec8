@@ -1,0 +1,23 @@
+package com.spark.ml;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Row;
+import org.apache.spark.sql.SparkSession;
+
+public class PivotBasics {
+
+	public static void main(String[] args) {
+		Logger.getLogger("org.apache").setLevel(Level.WARN);
+		SparkSession spark=SparkSession.builder().appName("Pivot in Spark")
+				.master("local[*]").config("somthing", "something").getOrCreate();
+		Dataset<Row> csvData=spark.read().option("header", true)
+				.csv("src/main/resources/inputdata/cars_sampled.csv");
+		
+		Dataset<Row> forPivot=csvData.select("abtest","brand");
+		forPivot.show();
+		spark.close();
+	}
+
+}

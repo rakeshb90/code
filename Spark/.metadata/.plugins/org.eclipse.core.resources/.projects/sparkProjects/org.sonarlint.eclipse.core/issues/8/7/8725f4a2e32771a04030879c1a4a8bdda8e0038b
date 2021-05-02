@@ -1,0 +1,64 @@
+
+s	java:S125+"<This block of commented-out lines of code should be removed.(ˆŒàßûÿÿÿÿ8‘…Ğ‘/H‰<RMAJORZ
+CODE_SMELL
+Œ
+java:S1192%"QDefine a constant instead of duplicating this literal "Loan_Amount_Term" 4 times.(œ¨ĞŠüÿÿÿÿ8‘…Ğ‘/Hó;RCRITICALZ
+CODE_SMELL
+g
+java:S3740 "/Provide the parametrized type for this generic.(áºùñÿÿÿÿÿ8‘…Ğ‘/Hã;RMAJORZ
+CODE_SMELL
+k	java:S106l"9Replace this use of System.out or System.err by a logger.( ü¥ó8¶§ø‘/Hç<RMAJORZ
+CODE_SMELL
+g
+java:S3740"/Provide the parametrized type for this generic.(øÈ‚øÿÿÿÿ8‘…Ğ‘/Hæ;RMAJORZ
+CODE_SMELL
+Š
+java:S1192!"ODefine a constant instead of duplicating this literal "Credit_History" 4 times.(ÌÿÕ÷øÿÿÿÿ8‘…Ğ‘/Hı;RCRITICALZ
+CODE_SMELL
+ƒ	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óâ¢Ÿ8‘…Ğ‘/H‚<RMINORZ
+CODE_SMELL
+ƒ	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìáà¤8‘…Ğ‘/H‡<RMINORZ
+CODE_SMELL
+p	java:S106x"9Replace this use of System.out or System.err by a logger.(Ûœ´½ûÿÿÿÿ8Õà—‘/H¨=RMAJORZ
+CODE_SMELL
+ˆ	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã—»®üÿÿÿÿ8‘…Ğ‘/H…<RMINORZ
+CODE_SMELL
+g
+java:S3740 "/Provide the parametrized type for this generic.(áºùñÿÿÿÿÿ8‘…Ğ‘/Hè;RMAJORZ
+CODE_SMELL
+‹
+java:S1192""PDefine a constant instead of duplicating this literal "ApplicantIncome" 4 times.(¯ƒéƒùÿÿÿÿ8‘…Ğ‘/Hø;RCRITICALZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘Ä•ËHÈ;RMINORZ
+CODE_SMELL
+s	java:S125u"<This block of commented-out lines of code should be removed.( è–€şÿÿÿÿ8ö™‘/H‡=RMAJORZ
+CODE_SMELL
+b
+java:S3740("/Provide the parametrized type for this generic.(şÚ¤Ë8‘…Ğ‘/Hç;RMAJORZ
+CODE_SMELL
+b
+java:S3740("/Provide the parametrized type for this generic.(şÚ¤Ë8‘…Ğ‘/Hå;RMAJORZ
+CODE_SMELL
+a
+java:S3740Q"/Provide the parametrized type for this generic.(µµùw8‘…Ğ‘/Hé;RMAJORZ
+CODE_SMELL
+p	java:S106s"9Replace this use of System.out or System.err by a logger.(Ä©‚šÿÿÿÿÿ8ö™‘/Hˆ=RMAJORZ
+CODE_SMELL
+a
+java:S3740Q"/Provide the parametrized type for this generic.(µµùw8‘…Ğ‘/Hä;RMAJORZ
+CODE_SMELL
+†
+java:S1192$"KDefine a constant instead of duplicating this literal "LoanAmount" 4 times.(ñú¿Ğøÿÿÿÿ8‘…Ğ‘/Hê;RCRITICALZ
+CODE_SMELL
+ˆ	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßšœ³ùÿÿÿÿ8‘…Ğ‘/Hƒ<RMINORZ
+CODE_SMELL
+
+java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "input".(·â¿í8‘…Ğ‘/Hˆ<RMINORZ
+CODE_SMELL
+ˆ	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒËéœÿÿÿÿÿ8‘…Ğ‘/H†<RMINORZ
+CODE_SMELL
+ˆ	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“…Èşÿÿÿÿ8‘…Ğ‘/H„<RMINORZ
+CODE_SMELL
+
+java:S1192#"RDefine a constant instead of duplicating this literal "CoapplicantIncome" 4 times.(ãÊœ×ıÿÿÿÿ8‘…Ğ‘/Hî;RCRITICALZ
+CODE_SMELL

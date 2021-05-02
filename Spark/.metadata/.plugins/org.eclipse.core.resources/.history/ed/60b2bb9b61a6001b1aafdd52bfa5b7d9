@@ -1,0 +1,28 @@
+package com.project.loanApprovalPrediction;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Row;
+import org.apache.spark.sql.SparkSession;
+
+public class ModelAnalysis {
+
+	public static void main(String[] args) {
+		Logger.getLogger("org.apache").setLevel(Level.WARN);
+		SparkSession spark=SparkSession.builder()
+				.appName("Loan Approval Prediction")
+				.master("local[*]")
+				.config("spark.some.config.option","some-value")
+				.getOrCreate();
+		Dataset<Row> csvData=spark.read()
+				.option("header", true)
+//				.option("inferSchema", true)
+				.csv("src/main/resources/input/loan_prediction.csv");
+		csvData.printSchema();
+		csvData.show();
+		spark.close();
+
+	}
+
+}

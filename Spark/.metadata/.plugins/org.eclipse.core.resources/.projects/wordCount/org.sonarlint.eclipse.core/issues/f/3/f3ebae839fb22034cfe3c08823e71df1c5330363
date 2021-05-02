@@ -1,0 +1,27 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ï©¥Öùÿÿÿÿ8•İèÂ/H‚RMAJORZ
+CODE_SMELL
+b
+java:S3740"/Provide the parametrized type for this generic.(ò‰Ç8•İèÂ/HƒRMAJORZ
+CODE_SMELL
+|
+java:S2095"NUse try-with-resources or close this "JavaSparkContext" in a "finally" clause.(ø©ÊÇ8•İèÂ/H„RBLOCKERZBUG
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›ç™üH…RMINORZ
+CODE_SMELL
+z
+java:S1128"BRemove this unused import 'org.apache.spark.api.java.JavaPairRDD'.(¿«µäıÿÿÿÿ8Ê­şÂ/H†RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(«ü¡’øÿÿÿÿ8ì‡óÂ/H‡RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(œÂº©8•İèÂ/HˆRMAJORZ
+CODE_SMELL
+_
+java:S1612",Replace this lambda with a method reference.(œÂº©8•İèÂ/H‰RMINORZ
+CODE_SMELL
+a
+java:S1128
+")Remove this unused import 'scala.Tuple2'.(ÁÁóµùÿÿÿÿ8´¾ùÂ/HŠRMINORZ
+CODE_SMELL
+b
+java:S3740"/Provide the parametrized type for this generic.(ò‰Ç8•İèÂ/H‹RMAJORZ
+CODE_SMELL

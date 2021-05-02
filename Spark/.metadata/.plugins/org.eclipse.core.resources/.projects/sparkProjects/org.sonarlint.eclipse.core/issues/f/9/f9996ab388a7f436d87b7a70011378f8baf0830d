@@ -1,0 +1,5 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(é‘ƒ¯ÿÿÿÿÿ8ß°•/HÓRMAJORZ
+CODE_SMELL
+
+java:S2095"NUse try-with-resources or close this "JavaSparkContext" in a "finally" clause.(¸á‚Ğùÿÿÿÿ8Ş°•/HÒRBLOCKERZBUG

@@ -1,0 +1,10 @@
+package com.spark.ml;
+
+public class PivotBasics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

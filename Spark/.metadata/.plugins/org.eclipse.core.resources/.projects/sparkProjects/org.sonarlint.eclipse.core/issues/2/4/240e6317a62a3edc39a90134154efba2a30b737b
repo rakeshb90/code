@@ -1,0 +1,65 @@
+
+ˆ	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã—»®üÿÿÿÿ8 Í°º‘/H¬vRMINORZ
+CODE_SMELL
+s	java:S125\"<This block of commented-out lines of code should be removed.(†Ž«ùÿÿÿÿ8‰Ú‡•’/H­vRMAJORZ
+CODE_SMELL
+‹
+java:S1192"PDefine a constant instead of duplicating this literal "ApplicantIncome" 3 times.(¯ƒéƒùÿÿÿÿ8ƒ¢©º‘/H®vRCRITICALZ
+CODE_SMELL
+s	java:S125b"<This block of commented-out lines of code should be removed.(ùØðòýÿÿÿÿ8èÙ»ê‘/H²vRMAJORZ
+CODE_SMELL
+n	java:S125i"<This block of commented-out lines of code should be removed.(…§Ðª8â÷•ê‘/H¶vRMAJORZ
+CODE_SMELL
+s	java:S125J"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8â÷•ê‘/H·vRMAJORZ
+CODE_SMELL
+p	java:S106I"9Replace this use of System.out or System.err by a logger.(®Ú³ðúÿÿÿÿ8â÷•ê‘/H¸vRMAJORZ
+CODE_SMELL
+g
+java:S3740"/Provide the parametrized type for this generic.(áºùñÿÿÿÿÿ8 Í°º‘/H¹vRMAJORZ
+CODE_SMELL
+ƒ	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìáà¤8 Í°º‘/HºvRMINORZ
+CODE_SMELL
+b
+java:S3740"/Provide the parametrized type for this generic.(þÚ¤Ë8ƒ¢©º‘/H»vRMAJORZ
+CODE_SMELL
+ƒ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óâ¢Ÿ8 Í°º‘/H¼vRMINORZ
+CODE_SMELL
+Œ
+java:S1192"QDefine a constant instead of duplicating this literal "Loan_Amount_Term" 3 times.(œ¨ÐŠüÿÿÿÿ8ƒ¢©º‘/H½vRCRITICALZ
+CODE_SMELL
+t
+java:S1128"ARemove this unused import 'org.apache.spark.sql.types.DataTypes'.(•ÿØè8‚Ä…‘’/HÁvRMINORZ
+CODE_SMELL
+s	java:S125G"<This block of commented-out lines of code should be removed.(£Ù¼ßþÿÿÿÿ8â÷•ê‘/HÂvRMAJORZ
+CODE_SMELL
+p	java:S106g"9Replace this use of System.out or System.err by a logger.(À”“‘þÿÿÿÿ8«÷õŽ’/HÃvRMAJORZ
+CODE_SMELL
+†
+java:S1192"KDefine a constant instead of duplicating this literal "LoanAmount" 4 times.(ñú¿Ðøÿÿÿÿ8ƒ¢©º‘/HÄvRCRITICALZ
+CODE_SMELL
+ˆ	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Ž…Èþÿÿÿÿ8 Í°º‘/HÉvRMINORZ
+CODE_SMELL
+ˆ	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßšœ³ùÿÿÿÿ8 Í°º‘/HÊvRMINORZ
+CODE_SMELL
+b
+java:S3740"/Provide the parametrized type for this generic.(þÚ¤Ë8 Í°º‘/HËvRMAJORZ
+CODE_SMELL
+m
+java:S1128":Remove this unused import 'org.apache.spark.sql.Encoders'.(¡•Ø8‰­Þ’/HÌvRMINORZ
+CODE_SMELL
+g
+java:S3740"/Provide the parametrized type for this generic.(áºùñÿÿÿÿÿ8ƒ¢©º‘/HÍvRMAJORZ
+CODE_SMELL
+
+java:S1192"RDefine a constant instead of duplicating this literal "CoapplicantIncome" 3 times.(ãÊœ×ýÿÿÿÿ8ƒ¢©º‘/HÎvRCRITICALZ
+CODE_SMELL
+Š
+java:S1192"ODefine a constant instead of duplicating this literal "Credit_History" 3 times.(ÌÿÕ÷øÿÿÿÿ8ƒ¢©º‘/HÒvRCRITICALZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘Ä•ËHÖvRMINORZ
+CODE_SMELL
+ˆ	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒËéœÿÿÿÿÿ8 Í°º‘/H×vRMINORZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ïºþ’/HØvRMINORZ
+CODE_SMELL

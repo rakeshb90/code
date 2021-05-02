@@ -1,0 +1,42 @@
+package com.demo;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Row;
+import org.apache.spark.sql.SparkSession;
+import static org.apache.spark.sql.functions.*;
+
+public class LogisticModel {
+
+	public static void main(String[] args) {
+		Logger.getLogger("org.apache").setLevel(Level.WARN);
+		SparkSession spark=SparkSession.builder()
+				.appName("Loan Approval Prediction")
+				.master("local[*]")
+				.config("spark.some.config.option","some-value")
+				.getOrCreate();
+		Dataset<Row> csvData=spark.read()
+				.option("header", true)
+				.option("inferSchema", true)
+				.csv("src/main/resources/input/loan_prediction.csv");
+		csvData=csvData.drop("Loan_ID");
+		// male=1,self_employed_Yes=1,Married_Yes=1,Education_Graduation=1
+		csvData=csvData.withColumn("Gender", when(col("Gender").like("FEMALE"),0).otherwise(1))
+				.withColumn("Self_Employed", when(col("Self_Employed").like("No"),0).otherwise(1))
+				.withColumn("Married", when(col("Married").like("No"),0).otherwise(1))
+				.withColumn("Education", when(col("Education").like("Not Graduate"),0).otherwise(1))
+				.withColumn("Dependents", when(col("Dependents").$greater$eq(1),1).otherwise(0))
+				.withColumn("Credit_History", when(col("Credit_History").$greater$eq(1),1).otherwise(0))
+				.withColumn("Property_Area", when(col("Property_Area").like("Urban"),1).otherwise(0));
+				
+		
+//		csvData.printSchema();
+//		csvData.show();
+		csvData.stat().toString();
+		spark.close();
+
+
+	}
+
+}

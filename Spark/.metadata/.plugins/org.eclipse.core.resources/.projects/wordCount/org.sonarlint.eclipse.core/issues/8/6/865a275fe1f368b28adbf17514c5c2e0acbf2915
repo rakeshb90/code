@@ -1,0 +1,54 @@
+
+Š
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(†ê¦ÆıÿÿÿÿHÂRMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›ç™üHÁRMINORZ
+CODE_SMELL
+Š
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(á‘¸¦ÿÿÿÿÿHÇRMINORZ
+CODE_SMELL
+Š
+java:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(˜Ø¼íúÿÿÿÿH»RMINORZ
+CODE_SMELL
+Š
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(±æÆœûÿÿÿÿH¾RMINORZ
+CODE_SMELL
+Š
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(±æÆœûÿÿÿÿHÈRMINORZ
+CODE_SMELL
+Š
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(¸èâüÿÿÿÿHÅRMINORZ
+CODE_SMELL
+…
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(œÌöÎHÊRMINORZ
+CODE_SMELL
+…
+java:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(íÖ¹ØHÆRMINORZ
+CODE_SMELL
+Š
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(î°°¢ùÿÿÿÿHÃRMINORZ
+CODE_SMELL
+i	java:S106E"9Replace this use of System.out or System.err by a logger.(ëªÈÌùÿÿÿÿH·RMAJORZ
+CODE_SMELL
+i	java:S106K"9Replace this use of System.out or System.err by a logger.(©ÈË·øÿÿÿÿHÉRMAJORZ
+CODE_SMELL
+Š
+java:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(ïÉĞÃøÿÿÿÿHÄRMINORZ
+CODE_SMELL
+…
+java:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").(éÓÒ«HºRMINORZ
+CODE_SMELL
+w
+java:S3973'"HUse indentation to denote the code conditionally executed by this "for".( ´ÀÍH¿RCRITICALZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ê½ˆåH½RMAJORZ
+CODE_SMELL
+b
+java:S3740A"/Provide the parametrized type for this generic.(şµÊ“8—è§ä/H¹RMAJORZ
+CODE_SMELL
+b
+java:S3740A"/Provide the parametrized type for this generic.(şµÊ“8—è§ä/H¼RMAJORZ
+CODE_SMELL
+Š
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(±æÆœûÿÿÿÿH¸RMINORZ
+CODE_SMELL

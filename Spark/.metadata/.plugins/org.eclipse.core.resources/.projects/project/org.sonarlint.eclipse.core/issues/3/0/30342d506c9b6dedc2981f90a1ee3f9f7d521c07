@@ -1,0 +1,15 @@
+
+]
+java:S1905""*Remove this unnecessary cast to "Integer".(Ãù†¦8”õ„/HñRMINORZ
+CODE_SMELL
+k	java:S106)"9Replace this use of System.out or System.err by a logger.(ÁÒ–†8’Õ¤’/HîRMAJORZ
+CODE_SMELL
+
+java:S2095"NUse try-with-resources or close this "JavaSparkContext" in a "finally" clause.(¸á‚Ğùÿÿÿÿ8™ˆã/HïRBLOCKERZBUG
+]
+java:S1905""*Remove this unnecessary cast to "Integer".(Ãù†¦8”õ„/HğRMINORZ
+CODE_SMELL
+p	java:S106#"9Replace this use of System.out or System.err by a logger.(·¢Ì«ûÿÿÿÿ8™ˆã/HóRMAJORZ
+CODE_SMELL
+n	java:S125%"<This block of commented-out lines of code should be removed.(œİ„İ8Å×ï‘/HòRMAJORZ
+CODE_SMELL

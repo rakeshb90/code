@@ -1,0 +1,22 @@
+
+s	java:S125""<This block of commented-out lines of code should be removed.(­®§Ìıÿÿÿÿ8›²øÅ/HØ%RMAJORZ
+CODE_SMELL
+s	java:S125I"<This block of commented-out lines of code should be removed.(¨şëûÿÿÿÿ8ã¬¸æ/HÛ%RMAJORZ
+CODE_SMELL
+p	java:S106c"9Replace this use of System.out or System.err by a logger.(ûÎÖÓıÿÿÿÿ8ã¬¸æ/HÜ%RMAJORZ
+CODE_SMELL
+p	java:S106d"9Replace this use of System.out or System.err by a logger.(²Ó…áúÿÿÿÿ8ã¬¸æ/Hİ%RMAJORZ
+CODE_SMELL
+s	java:S125="<This block of commented-out lines of code should be removed.(ˆªàÎıÿÿÿÿ8ã¬¸æ/HŞ%RMAJORZ
+CODE_SMELL
+ˆ	java:S117^"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éø¬ıÿÿÿÿ8ã¬¸æ/Hß%RMINORZ
+CODE_SMELL
+p	java:S106b"9Replace this use of System.out or System.err by a logger.(èÚ¦Çşÿÿÿÿ8ã¬¸æ/Hà%RMAJORZ
+CODE_SMELL
+k	java:S106!"9Replace this use of System.out or System.err by a logger.(Ç÷Æ8÷ÉÃã/Há%RMAJORZ
+CODE_SMELL
+k	java:S106a"9Replace this use of System.out or System.err by a logger.(¼ß¿¸8ã¬¸æ/Hâ%RMAJORZ
+CODE_SMELL
+}
+java:S1128"ERemove this unused import 'org.apache.spark.ml.evaluation.Evaluator'.(¼İ¹ûÿÿÿÿÿ8ÜÚœã/Hã%RMINORZ
+CODE_SMELL

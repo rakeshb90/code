@@ -1,0 +1,25 @@
+package com.project.housepricepridiction;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Row;
+import org.apache.spark.sql.SparkSession;
+// Features Selection or Field selection for model
+public class HousePriceField {
+
+	public static void main(String[] args) {
+		System.setProperty("hadoop.home.dir", "C:/Users/Rakesh/hadoop");
+		Logger.getLogger("org.apache").setLevel(Level.WARN);
+		SparkSession spark=SparkSession.builder().appName("House price prediction")
+				.master("local[*]").config("spark.some.config.option", "some-value")
+				.getOrCreate();
+		Dataset<Row> input=spark.read()
+				.option("header", true)
+				.option("inferSchema", true)
+				.csv("src/main/resources/input/kc_house_data.csv");
+		input.describe().show();
+
+	}
+
+}

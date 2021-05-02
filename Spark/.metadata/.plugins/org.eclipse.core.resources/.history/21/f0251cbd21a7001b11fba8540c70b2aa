@@ -1,0 +1,125 @@
+package com.project.loanApprovalPrediction;
+
+import static org.apache.spark.sql.functions.col;
+import static org.apache.spark.sql.functions.when;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.spark.ml.clustering.KMeans;
+import org.apache.spark.ml.clustering.KMeansModel;
+import org.apache.spark.ml.feature.OneHotEncoder;
+import org.apache.spark.ml.feature.StringIndexer;
+import org.apache.spark.ml.feature.VectorAssembler;
+import org.apache.spark.ml.linalg.Vector;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Row;
+import org.apache.spark.sql.SparkSession;
+
+public class LapKmeanClustering {
+	public static Dataset init() {
+		System.setProperty("hadoop.home.dir", "C:/Users/Rakesh/hadoop");
+		Logger.getLogger("org.apache").setLevel(Level.WARN);
+		SparkSession spark=SparkSession.builder().appName("Loan Amount prediction")
+				.master("local[*]").config("spark.some.config.option", "some-value")
+				.getOrCreate();
+		Dataset<Row> input=spark.read()
+				.option("header", true)
+				.option("inferSchema", true)
+				.csv("src/main/resources/input/loan_prediction.csv");
+		return input;
+	}
+	public static Dataset cleanData(Dataset csvData) {
+		csvData=csvData.withColumn("Credit_History", when(col("Credit_History").isNull(),0).otherwise(col("Credit_History")))
+		.withColumn("ApplicantIncome", when(col("ApplicantIncome").isNull(),0).otherwise(col("ApplicantIncome")))
+		.withColumn("CoapplicantIncome", when(col("CoapplicantIncome").isNull(),0).otherwise(col("CoapplicantIncome")))
+        .withColumn("LoanAmount", when(col("LoanAmount").isNull(),0).otherwise(col("LoanAmount")))
+        .withColumn("Loan_Amount_Term", when(col("Loan_Amount_Term").isNull(),0).otherwise(col("Loan_Amount_Term")));
+		return csvData;
+	}
+	public static Dataset stringToInteger(Dataset csvData) {
+
+
+//		csvData=csvData.withColumnRenamed("LoanAmount", "label");
+		StringIndexer GenderIndex=new StringIndexer()
+				.setInputCol("Gender")
+				.setOutputCol("GenderIndex")
+				.setHandleInvalid("skip");
+		csvData=GenderIndex.fit(csvData).transform(csvData);
+		
+		StringIndexer Self_EmployedIndex=new StringIndexer()
+				.setInputCol("Self_Employed")
+				.setOutputCol("Self_EmployedIndex")
+				.setHandleInvalid("skip");
+		csvData=Self_EmployedIndex.fit(csvData).transform(csvData);
+		
+		StringIndexer MarriedIndex=new StringIndexer()
+				.setInputCol("Married")
+				.setOutputCol("MarriedIndex")
+				.setHandleInvalid("skip");
+		csvData=MarriedIndex.fit(csvData).transform(csvData);
+		
+		StringIndexer EducationIndex=new StringIndexer()
+				.setInputCol("Education")
+				.setOutputCol("EducationIndex")
+				.setHandleInvalid("skip");
+		csvData=EducationIndex.fit(csvData).transform(csvData);
+		
+		StringIndexer Property_AreaIndex=new StringIndexer()
+				.setInputCol("Property_Area")
+				.setOutputCol("Property_AreaIndex")
+				.setHandleInvalid("skip");
+		csvData=Property_AreaIndex.fit(csvData).transform(csvData);
+		
+		StringIndexer DependentsIndex=new StringIndexer()
+				.setInputCol("Dependents")
+				.setOutputCol("DependentsIndex")
+				.setHandleInvalid("skip");
+		csvData=DependentsIndex.fit(csvData).transform(csvData);
+     return csvData;
+	}
+public static Dataset integerToVector(Dataset csvData) {
+		
+		OneHotEncoder encoder=new OneHotEncoder()
+				.setInputCols(new String[] {"GenderIndex","Self_EmployedIndex","MarriedIndex","EducationIndex","Property_AreaIndex","DependentsIndex"})
+				.setOutputCols(new String[] {"GenderVector","Self_EmployedVector","MarriedVector","EducationVector","Property_AreaVector","DependentsVector"});
+		csvData=encoder.fit(csvData).transform(csvData);
+		return csvData;
+
+	}
+
+	public static void main(String[] args) {
+		Dataset<Row> inputData=init();
+		
+		inputData=cleanData(inputData);
+		
+		inputData=stringToInteger(inputData);
+		
+		inputData=integerToVector(inputData);
+		
+		VectorAssembler assembler=new VectorAssembler()
+				.setInputCols(new String[] {"GenderVector","MarriedVector","EducationVector","Self_EmployedVector","ApplicantIncome","CoapplicantIncome","Loan_Amount_Term","Credit_History","Property_AreaVector","LoanAmount"})
+				.setOutputCol("features");
+		Dataset<Row> modelInput=assembler.transform(inputData).select("features");
+		
+		KMeans kMean=new KMeans();
+		kMean.setK(3);
+		KMeansModel model=kMean.fit(modelInput);
+		Dataset<Row> predictions=model.transform(modelInput);
+		predictions.show();
+		
+		Vector[] clusterCenters=model.clusterCenters();
+		for(Vector v:clusterCenters)
+			System.out.println(v);
+		predictions.groupBy("prediction").count().show();
+		
+		
+		
+		
+		
+		
+		
+		
+		modelInput.show();
+	}
+
+}

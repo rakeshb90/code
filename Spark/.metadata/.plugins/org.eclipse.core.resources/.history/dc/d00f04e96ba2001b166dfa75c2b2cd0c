@@ -1,0 +1,25 @@
+package com.spark.basics;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.spark.SparkConf;
+import org.apache.spark.api.java.AbstractJavaRDDLike;
+import org.apache.spark.api.java.JavaRDD;
+import org.apache.spark.api.java.JavaSparkContext;
+
+public class LoadData {
+
+	public static void main(String[] args) {
+		Logger.getLogger("org.apache").setLevel(Level.WARN);
+		SparkConf conf=new SparkConf().setAppName("LoadDataFromDisk")
+				       .setMaster("local[*]");
+		JavaSparkContext sc=new JavaSparkContext(conf);
+		JavaRDD<String> inputRDD=sc.textFile("src/main/resources/inputdata/input.txt");
+		inputRDD.collect().forEach(System.out::println);
+		JavaRDD<String> weatehrRDD=sc.textFile("src/main/resources/inputdata/weather.txt");
+		weatehrRDD.collect().forEach(System.out::println);
+
+
+	}
+
+}

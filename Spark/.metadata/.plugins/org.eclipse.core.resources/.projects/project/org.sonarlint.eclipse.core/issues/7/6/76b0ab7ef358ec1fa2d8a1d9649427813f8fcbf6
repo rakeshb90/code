@@ -1,0 +1,18 @@
+
+l	java:S125"<This block of commented-out lines of code should be removed.(ÜŠñèøÿÿÿÿHşRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(‡Õú†HÿRMAJORZ
+CODE_SMELL
+z
+java:S2095"NUse try-with-resources or close this "JavaSparkContext" in a "finally" clause.(¸á‚ĞùÿÿÿÿH€RBLOCKERZBUG
+u
+java:S1128"JRemove this unused import 'org.apache.spark.api.java.AbstractJavaRDDLike'.(é¹¤OHRMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ÙîËH‚RMAJORZ
+CODE_SMELL
+l	java:S125"<This block of commented-out lines of code should be removed.(‘¼’ÏÿÿÿÿÿHƒRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(üıß¦H„RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(‰Ì€ÌşÿÿÿÿH…RMAJORZ
+CODE_SMELL

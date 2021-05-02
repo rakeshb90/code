@@ -1,0 +1,31 @@
+
+g
+java:S1172"4Remove this unused method parameter "inputFileName".(âó…Œ8—Ú‘—/H¨ RMAJORZ
+CODE_SMELL
+e
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8—Ú‘—/Hª RMINORZ
+CODE_SMELL
+z
+java:S1128"BRemove this unused import 'org.apache.spark.api.java.JavaPairRDD'.(¿«µäıÿÿÿÿ8—Ú‘—/H¯ RMINORZ
+CODE_SMELL
+a
+java:S1128")Remove this unused import 'scala.Tuple2'.(ÁÁóµùÿÿÿÿ8—Ú‘—/H² RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(÷¶Ì”üÿÿÿÿ8ÓäÚ½/H° RMAJORZ
+CODE_SMELL
+o
+java:S1128"7Remove this unused import 'org.apache.spark.SparkConf'.(¬Õâøşÿÿÿÿ8—Ú‘—/H« RMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(‰³€ÄH± RMAJORZ
+CODE_SMELL
+z
+java:S1128
+"GRemove this unused import 'org.apache.spark.api.java.JavaSparkContext'.(İ“„…8—Ú‘—/H® RMINORZ
+CODE_SMELL
+d	java:S106""9Replace this use of System.out or System.err by a logger.(÷ÜÛH¬ RMAJORZ
+CODE_SMELL
+q
+java:S1128	">Remove this unused import 'org.apache.spark.api.java.JavaRDD'.(¼¦‘ 8—Ú‘—/H­ RMINORZ
+CODE_SMELL
+m	java:S125"<This block of commented-out lines of code should be removed.(îÚ€58ÁÌ¿Ç/HÚ RMAJORZ
+CODE_SMELL

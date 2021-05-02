@@ -1,0 +1,33 @@
+
+_
+java:S1612+",Replace this lambda with a method reference.(á¹Úñ8ÎÇŸŒ’/H˜kRMINORZ
+CODE_SMELL
+a
+java:S14819".Remove this unused "totalCost" local variable.(Á°§Ï8¿Ãë‹’/H«kRMINORZ
+CODE_SMELL
+j	java:S106."9Replace this use of System.out or System.err by a logger.(œ±«t8é¡ù‹’/H—kRMAJORZ
+CODE_SMELL
+p
+java:S18549"=Remove this useless assignment to local variable "totalCost".(Á°§Ï8¿Ãë‹’/H¬kRMAJORZ
+CODE_SMELL
+p	java:S106>"9Replace this use of System.out or System.err by a logger.(­çŒÑúÿÿÿÿ8¹ï¢’/HÁkRMAJORZ
+CODE_SMELL
+‚
+java:S1192""GDefine a constant instead of duplicating this literal "price" 10 times.(œÀ÷Ïıÿÿÿÿ8ã Ñ‹’/HkRCRITICALZ
+CODE_SMELL
+d
+java:S1612=",Replace this lambda with a method reference.(³ãúÿÿÿÿÿ8ëÖÍŒ’/HªkRMINORZ
+CODE_SMELL
+t
+java:S1854:"<Remove this useless assignment to local variable "totalRow".(ê—ûşıÿÿÿÿ8é¡ù‹’/H™kRMAJORZ
+CODE_SMELL
+d
+java:S1612)",Replace this lambda with a method reference.(˜¿­Äÿÿÿÿÿ8Àâ¥’/HÎkRMINORZ
+CODE_SMELL
+n	java:S125<"<This block of commented-out lines of code should be removed.(¦‚à8ÎÇŸŒ’/H©kRMAJORZ
+CODE_SMELL
+e
+java:S1481:"-Remove this unused "totalRow" local variable.(ê—ûşıÿÿÿÿ8é¡ù‹’/H¨kRMINORZ
+CODE_SMELL
+k	java:S1062"9Replace this use of System.out or System.err by a logger.(¦ÛŸ8§ÅĞŒ’/H§kRMAJORZ
+CODE_SMELL

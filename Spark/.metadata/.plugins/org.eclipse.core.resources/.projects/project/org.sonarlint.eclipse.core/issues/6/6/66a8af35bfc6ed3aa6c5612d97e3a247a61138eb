@@ -1,0 +1,27 @@
+
+b
+java:S3740"/Provide the parametrized type for this generic.(©‹Öı8¯üÊş/HñhRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(³Ÿíì8èƒÕÿ/HóhRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(”´º¨8áäÏş/HõhRMAJORZ
+CODE_SMELL
+s	java:S125("<This block of commented-out lines of code should be removed.(ïô„¶ùÿÿÿÿ8‹·ÕŠ’/H°iRMAJORZ
+CODE_SMELL
+
+java:S2095"NUse try-with-resources or close this "JavaSparkContext" in a "finally" clause.(¸á‚Ğùÿÿÿÿ8¯üÊş/HïhRBLOCKERZBUG
+b
+java:S3740 "/Provide the parametrized type for this generic.(è¶¡8 Ÿç/HòhRMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(·ÁÏ‚8µ/HíhRMAJORZ
+CODE_SMELL
+k	java:S106 "9Replace this use of System.out or System.err by a logger.(è¶¡8Š¥ÿ/HöhRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Õ…€šıÿÿÿÿ8¾€¶ÿ/HôhRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ÏÎ¶şÿÿÿÿÿ8Øûış/HîhRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(áÔÆ¼ùÿÿÿÿ8 Ÿç/HğhRMAJORZ
+CODE_SMELL
+p	java:S106,"9Replace this use of System.out or System.err by a logger.(ûÆèªıÿÿÿÿ8ï–…‹’/HîiRMAJORZ
+CODE_SMELL
