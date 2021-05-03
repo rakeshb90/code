@@ -1,0 +1,37 @@
+package com.project.loanApprovalPrediction;
+
+import org.apache.spark.ml.classification.LogisticRegressionModel;
+import org.apache.spark.ml.regression.LinearRegressionModel;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Row;
+
+public class ModelDriver {
+
+	public static void main(String[] args) {
+	ModelFieldSelection feature=new ModelFieldSelection();
+	Models models=new Models();
+	
+	Dataset<Row> csvData=feature.init();
+	
+	csvData=feature.cleanData(csvData);
+	
+	csvData=feature.stringIndexing(csvData);
+	
+	csvData=feature.indexToVector(csvData);
+	
+	Dataset<Row> modelInput=feature.getModelInput(csvData);
+	
+	Dataset<Row>[] modelData=modelInput.randomSplit(new double[] {0.8,0.2});
+	
+	Dataset<Row>trainData=modelData[0];
+	Dataset<Row>testData=modelData[1];
+	
+	LinearRegressionModel linearReg = models.linearRegModel(trainData);
+	LogisticRegressionModel logisticReg = models.logisticModel(trainData);
+	
+	
+	
+
+	}
+
+}

@@ -1,86 +1,86 @@
 
-†
-java:S1192/"KDefine a constant instead of duplicating this literal "LoanAmount" 5 times.(ñú¿Ğøÿÿÿÿ8ôàî¹‘/HÑwRCRITICALZ
+q	java:S106W"9Replace this use of System.out or System.err by a logger.(æîÇşûÿÿÿÿ8ôàî¹‘/H››RMAJORZ
 CODE_SMELL
-ƒ	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óâ¢Ÿ8ôàî¹‘/HßwRMINORZ
+”
+java:S1488‰"_Immediately return this expression instead of assigning it to the temporary variable "lrModel".(‰Ë§8ôàî¹‘/H¥›RMINORZ
 CODE_SMELL
-c
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8å¦ğ‘’/HäwRMINORZ
-CODE_SMELL
-p	java:S106l"9Replace this use of System.out or System.err by a logger.(æîÇşûÿÿÿÿ8ôàî¹‘/H÷wRMAJORZ
-CODE_SMELL
-a
-java:S3740Z"/Provide the parametrized type for this generic.(µµùw8ôàî¹‘/HùwRMAJORZ
-CODE_SMELL
-ƒ	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìáà¤8ôàî¹‘/HøwRMINORZ
-CODE_SMELL
-a
-java:S3740Z"/Provide the parametrized type for this generic.(µµùw8ôàî¹‘/HŞwRMAJORZ
-CODE_SMELL
-ˆ	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒËéœÿÿÿÿÿ8ôàî¹‘/HìwRMINORZ
+q	java:S106T"9Replace this use of System.out or System.err by a logger.(ô¸·èûÿÿÿÿ8ôàî¹‘/Hœ›RMAJORZ
 CODE_SMELL
 ‹
-java:S1128"YRemove this unused import 'org.apache.spark.ml.classification.LogisticRegressionSummary'.(ĞÁöv8”—õ¹‘/HâwRMINORZ
+java:S1128"WRemove this unused import 'org.apache.spark.ml.classification.LogisticRegressionModel'.(§®é¼8”—õ¹‘/H¤›RMINORZ
 CODE_SMELL
-g
-java:S3740+"/Provide the parametrized type for this generic.(áºùñÿÿÿÿÿ8ôàî¹‘/HĞwRMAJORZ
-CODE_SMELL
-ˆ	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã—»®üÿÿÿÿ8ôàî¹‘/HáwRMINORZ
-CODE_SMELL
-‹
-java:S1192-"PDefine a constant instead of duplicating this literal "ApplicantIncome" 4 times.(¯ƒéƒùÿÿÿÿ8ôàî¹‘/HÇwRCRITICALZ
-CODE_SMELL
-Š
-java:S1192,"ODefine a constant instead of duplicating this literal "Credit_History" 3 times.(ÌÿÕ÷øÿÿÿÿ8ôàî¹‘/HğwRCRITICALZ
-CODE_SMELL
-Š
-java:S1128"RRemove this unused import 'org.apache.spark.ml.classification.LogisticRegression'.(ŞŒŸßùÿÿÿÿ8”—õ¹‘/HåwRMINORZ
-CODE_SMELL
-g
-java:S3740+"/Provide the parametrized type for this generic.(áºùñÿÿÿÿÿ8ôàî¹‘/HïwRMAJORZ
-CODE_SMELL
-b
-java:S37403"/Provide the parametrized type for this generic.(şÚ¤Ë8ôàî¹‘/HİwRMAJORZ
-CODE_SMELL
-p	java:S106i"9Replace this use of System.out or System.err by a logger.(ô¸·èûÿÿÿÿ8ôàî¹‘/HÆwRMAJORZ
-CODE_SMELL
-…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘Ä•ËHÏwRMINORZ
-CODE_SMELL
-ˆ	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“…Èşÿÿÿÿ8ôàî¹‘/HÛwRMINORZ
-CODE_SMELL
-p	java:S106j"9Replace this use of System.out or System.err by a logger.(©®Ïúÿÿÿÿ8ôàî¹‘/HöwRMAJORZ
-CODE_SMELL
-e
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8å¦ğ‘’/HãwRMINORZ
-CODE_SMELL
-
-java:S1192."RDefine a constant instead of duplicating this literal "CoapplicantIncome" 4 times.(ãÊœ×ıÿÿÿÿ8ôàî¹‘/HçwRCRITICALZ
+…
+java:S11923"NDefine a constant instead of duplicating this literal "Property_Area" 4 times.(³Âäÿ8ÇÇ’ñ’/H–›RCRITICALZ
 CODE_SMELL
 Œ
-java:S11920"QDefine a constant instead of duplicating this literal "Loan_Amount_Term" 3 times.(œ¨ĞŠüÿÿÿÿ8ôàî¹‘/H×wRCRITICALZ
-CODE_SMELL
-
-java:S1488$"]Immediately return this expression instead of assigning it to the temporary variable "input".(·â¿í8å¦ğ‘’/HÌwRMINORZ
-CODE_SMELL
-s	java:S125f"<This block of commented-out lines of code should be removed.(¨şëûÿÿÿÿ8ôàî¹‘/HôwRMAJORZ
-CODE_SMELL
-b
-java:S37403"/Provide the parametrized type for this generic.(şÚ¤Ë8ôàî¹‘/HÎwRMAJORZ
-CODE_SMELL
-ˆ	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßšœ³ùÿÿÿÿ8ôàî¹‘/HîwRMINORZ
-CODE_SMELL
-“
-java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "lrModel".(‰Ë§8ôàî¹‘/HàwRMINORZ
-CODE_SMELL
-g
-java:S3740c"/Provide the parametrized type for this generic.(¬á£ëùÿÿÿÿ8ôàî¹‘/HæwRMAJORZ
-CODE_SMELL
-Š
-java:S1128"WRemove this unused import 'org.apache.spark.ml.classification.LogisticRegressionModel'.(§®é¼8”—õ¹‘/HÜwRMINORZ
+java:S1128"YRemove this unused import 'org.apache.spark.ml.classification.LogisticRegressionSummary'.(ĞÁöv8”—õ¹‘/H£›RMINORZ
 CODE_SMELL
 z
-java:S1854ƒ"FRemove this useless assignment to local variable "traningAndTestData".(Šè†Ş8†üÍÇ’/Hÿ{RMAJORZ
+java:S1854n"FRemove this useless assignment to local variable "traningAndTestData".(Šè†Ş8†üÍÇ’/H†›RMAJORZ
+CODE_SMELL
+~
+java:S1192."GDefine a constant instead of duplicating this literal "Gender" 4 times.(ÔÎ§ï8ÇÇ’ñ’/H¿›RCRITICALZ
+CODE_SMELL
+
+java:S11921"HDefine a constant instead of duplicating this literal "Married" 4 times.(ÊÇ«8ÇÇ’ñ’/H¬›RCRITICALZ
+CODE_SMELL
+t	java:S125Q"<This block of commented-out lines of code should be removed.(¨şëûÿÿÿÿ8ôàî¹‘/H›RMAJORZ
+CODE_SMELL
+‹
+java:S1128"RRemove this unused import 'org.apache.spark.ml.classification.LogisticRegression'.(ŞŒŸßùÿÿÿÿ8”—õ¹‘/H„›RMINORZ
 CODE_SMELL
 k
-java:S1481ƒ"7Remove this unused "traningAndTestData" local variable.(Šè†Ş8†üÍÇ’/H€|RMINORZ
+java:S1481n"7Remove this unused "traningAndTestData" local variable.(Šè†Ş8†üÍÇ’/H¢›RMINORZ
+CODE_SMELL
+h
+java:S3740,"/Provide the parametrized type for this generic.(áºùñÿÿÿÿÿ8ôàî¹‘/H½›RMAJORZ
+CODE_SMELL
+h
+java:S3740,"/Provide the parametrized type for this generic.(áºùñÿÿÿÿÿ8ôàî¹‘/HÄ›RMAJORZ
+CODE_SMELL
+b
+java:S3740E"/Provide the parametrized type for this generic.(µµùw8ôàî¹‘/H±›RMAJORZ
+CODE_SMELL
+ˆ
+java:S1192/"LDefine a constant instead of duplicating this literal "Loan_Status" 4 times.(Â¸—¡ùÿÿÿÿ8ÇÇ’ñ’/H·›RCRITICALZ
+CODE_SMELL
+c
+java:S3740:"/Provide the parametrized type for this generic.(şÚ¤Ë8ôàî¹‘/H…›RMAJORZ
+CODE_SMELL
+c
+java:S3740:"/Provide the parametrized type for this generic.(şÚ¤Ë8ôàî¹‘/H¶›RMAJORZ
+CODE_SMELL
+‚
+java:S11927"KDefine a constant instead of duplicating this literal "LoanAmount" 4 times.(¤Ç8ôàî¹‘/H¦›RCRITICALZ
+CODE_SMELL
+q	java:S106U"9Replace this use of System.out or System.err by a logger.(©®Ïúÿÿÿÿ8ôàî¹‘/H¾›RMAJORZ
+CODE_SMELL
+h
+java:S3740N"/Provide the parametrized type for this generic.(¬á£ëùÿÿÿÿ8ôàî¹‘/H«›RMAJORZ
+CODE_SMELL
+
+java:S11922"JDefine a constant instead of duplicating this literal "Education" 4 times.(‘³âå8ÇÇ’ñ’/H‘›RCRITICALZ
+CODE_SMELL
+d
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8å¦ğ‘’/H‡›RMINORZ
+CODE_SMELL
+…
+java:S11925"ODefine a constant instead of duplicating this literal "Credit_History" 3 times.(Á“·[8ôàî¹‘/H²›RCRITICALZ
+CODE_SMELL
+…
+java:S11920"NDefine a constant instead of duplicating this literal "Self_Employed" 4 times.(£…ü8ÇÇ’ñ’/H›RCRITICALZ
+CODE_SMELL
+b
+java:S3740E"/Provide the parametrized type for this generic.(µµùw8ôàî¹‘/Hˆ›RMAJORZ
+CODE_SMELL
+‡
+java:S11924"KDefine a constant instead of duplicating this literal "Dependents" 4 times.(ÅÒÎ»üÿÿÿÿ8ÇÇ’ñ’/H‰›RCRITICALZ
+CODE_SMELL
+‘
+java:S1488%"]Immediately return this expression instead of assigning it to the temporary variable "input".(·â¿í8å¦ğ‘’/H›RMINORZ
+CODE_SMELL
+f
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8å¦ğ‘’/Hƒ›RMINORZ
+CODE_SMELL
+†	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘Ä•ËH¼›RMINORZ
 CODE_SMELL

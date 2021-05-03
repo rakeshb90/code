@@ -1,0 +1,16 @@
+
+\
+java:S1604("(Make this anonymous inner class a lambda(õÅçâ8ã˜»†“/HŸRMAJORZ
+CODE_SMELL
+v
+java:S1854"BRemove this useless assignment to local variable "predictionData".(—ÄÖÂ8ã˜»†“/H‚ŸRMAJORZ
+CODE_SMELL
+t	java:S125"<This block of commented-out lines of code should be removed.(–‚«ûÿÿÿÿ8ã˜»†“/HƒŸRMAJORZ
+CODE_SMELL
+o	java:S125$"<This block of commented-out lines of code should be removed.(¾Øğ8ã˜»†“/HˆŸRMAJORZ
+CODE_SMELL
+o	java:S125/"<This block of commented-out lines of code should be removed.(ãÛµÏ8ã˜»†“/HŠŸRMAJORZ
+CODE_SMELL
+g
+java:S1481"3Remove this unused "predictionData" local variable.(—ÄÖÂ8ã˜»†“/HŸRMINORZ
+CODE_SMELL

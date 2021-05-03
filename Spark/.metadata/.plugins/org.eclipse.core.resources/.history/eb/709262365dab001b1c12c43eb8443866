@@ -1,0 +1,97 @@
+package com.project.loanApprovalPrediction;
+
+import static org.apache.spark.sql.functions.*;
+
+import java.util.List;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.spark.ml.feature.StringIndexer;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Encoders;
+import org.apache.spark.sql.Row;
+import org.apache.spark.sql.SparkSession;
+import org.apache.spark.sql.types.DataTypes;
+import static org.apache.spark.sql.functions.*;
+
+public class ModelFieldSelection {
+	
+	
+	public static Dataset cleanLoanData(Dataset loanData) {
+		loanData=loanData.na()
+				.fill(loanData.groupBy("Gender").count().orderBy(desc("Gender")).first().get(0).toString(),new String[] {"Gender"}).na()
+				.fill(loanData.groupBy("Married").count().orderBy(desc("Married")).first().get(0).toString(),new String[] {"Married"}).na()
+				.fill(loanData.groupBy("Dependents").count().orderBy(desc("Dependents")).first().get(0).toString(),new String[] {"Dependents"}).na()
+				.fill(loanData.groupBy("Self_Employed").count().orderBy(desc("Self_Employed")).first().get(0).toString(),new String[] {"Self_Employed"}).na()
+				.fill((double)(int)loanData.groupBy("Credit_History").count().orderBy(desc("Credit_History")).first().get(0),new String[] {"Credit_History"}).na()
+				.fill(loanData.stat().approxQuantile("LoanAmount",new double[] {0.5}, 0.000000000005)[0],new String[] {"LoanAmount"}).na()
+				.fill(loanData.stat().approxQuantile("Loan_Amount_Term",new double[] {0.5}, 0.000000000005)[0],new String[] {"Loan_Amount_Term"});
+			
+			return loanData;
+			
+	}
+	public static Dataset cleanData(Dataset csvData) {
+		
+		csvData=csvData.withColumn("Credit_History", when(col("Credit_History").isNull(),0).otherwise(col("Credit_History")))
+		.withColumn("Loan_Status", when(col("Loan_Status").like("Y"),1).otherwise(0))
+		.withColumn("ApplicantIncome", when(col("ApplicantIncome").isNull(),0).otherwise(col("ApplicantIncome")))
+		.withColumn("CoapplicantIncome", when(col("CoapplicantIncome").isNull(),0).otherwise(col("CoapplicantIncome")))
+        .withColumn("LoanAmount", when(col("LoanAmount").isNull(),0).otherwise(col("LoanAmount")))
+        .withColumn("Loan_Amount_Term", when(col("Loan_Amount_Term").isNull(),0).otherwise(col("Loan_Amount_Term")));
+		return csvData;
+	}
+	public static Dataset stringToInteger(Dataset csvData) {
+
+		 csvData=csvData.drop("Loan_ID");
+			StringIndexer dataIndex=new StringIndexer()
+					.setInputCols(new String[] {"Loan_Status","Gender","Self_Employed","Married","Education","Property_Area","Dependents"})
+					.setOutputCols(new String[] {"Loan_StatusIndex","GenderIndex","Self_EmployedIndex","MarriedIndex","EducationIndex","Property_AreaIndex","DependentsIndex"})
+					.setHandleInvalid("keep");
+			csvData=dataIndex.fit(csvData).transform(csvData);
+
+     return csvData;
+	}
+
+	
+	public static void checkCorrelation(Dataset<Row> inputData) {
+		 for(String col1:inputData.columns()) {
+//			 for(String col2:inputData.columns()) {
+                 String col2="LoanAmount";
+				 System.out.println("Correlation in between "+col1+" and "+col2+" : "+Math.abs(inputData.stat().corr(col1, col2)));
+//			 }
+		 }
+		
+	}
+
+
+	public static void main(String[] args) {
+		System.setProperty("hadoop.home.dir", "C:/Users/Rakesh/hadoop");
+		Logger.getLogger("org.apache").setLevel(Level.WARN);
+		SparkSession spark=SparkSession.builder().appName("Loan Amount prediction")
+				.master("local[*]").config("spark.some.config.option", "some-value")
+				.getOrCreate();
+		Dataset<Row> input=spark.read()
+				.option("header", true)
+				.option("inferSchema", true)
+				.csv("src/main/resources/input/loan_approval.csv");
+//		input=cleanData(input);
+		input=cleanLoanData(input);
+	
+//		input=input.na().fill(999999);
+		
+		input.show();
+		
+		
+		
+//		input=stringToInteger(input);
+//		input=input.drop("Loan_Id","Gender","Married","Dependents","Education","Self_Employed","Property_Area");
+//		input.select("ApplicantIncome").where(col("ApplicantIncome").isNotNull()).summary();
+//		input.select("ApplicantIncome").show(false);
+//		for(String col1:input.columns()){
+//		System.out.println("Null column count of "+col1+" : "+input.filter(col(col1).isNotNull()).summary());
+//		}
+//		checkCorrelation(input);
+		
+	}
+
+}

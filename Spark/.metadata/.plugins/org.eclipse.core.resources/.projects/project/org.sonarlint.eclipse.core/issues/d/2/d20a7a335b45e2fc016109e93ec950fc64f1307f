@@ -1,0 +1,12 @@
+
+{
+java:S1854"BRemove this useless assignment to local variable "studentEncoder".(÷¯¾¸ùÿÿÿÿ8ýß¤æ’/H¬€RMAJORZ
+CODE_SMELL
+l
+java:S1481"3Remove this unused "studentEncoder" local variable.(÷¯¾¸ùÿÿÿÿ8ýß¤æ’/H¯€RMINORZ
+CODE_SMELL
+t	java:S125 "<This block of commented-out lines of code should be removed.(¼è÷ïøÿÿÿÿ8ýß¤æ’/H­€RMAJORZ
+CODE_SMELL
+`
+java:S1612#",Replace this lambda with a method reference.(ÿ´¬´8ýß¤æ’/H®€RMINORZ
+CODE_SMELL

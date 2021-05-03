@@ -1,0 +1,55 @@
+
+l
+java:S38785"8Remove this array creation and simply pass the elements.(»òùæ8çÍÑƒ“/Hô™RMINORZ
+CODE_SMELL
+ƒ
+java:S1192!"GDefine a constant instead of duplicating this literal "seller" 5 times.(ˆøç¶ùÿÿÿÿ8®Èş‚“/Hª—RCRITICALZ
+CODE_SMELL
+}
+java:S1192("FDefine a constant instead of duplicating this literal "brand" 5 times.(„Úœ”8®Èş‚“/HÂ—RCRITICALZ
+CODE_SMELL
+€
+java:S1192""JDefine a constant instead of duplicating this literal "offerType" 5 times.(­Èàu8®Èş‚“/H®—RCRITICALZ
+CODE_SMELL
+‚
+java:S1192&"FDefine a constant instead of duplicating this literal "model" 5 times.(˜•îšûÿÿÿÿ8®Èş‚“/Hº—RCRITICALZ
+CODE_SMELL
+€
+java:S1192'"IDefine a constant instead of duplicating this literal "fuelType" 5 times.(´»™´8®Èş‚“/HÊ—RCRITICALZ
+CODE_SMELL
+l
+java:S3878"8Remove this array creation and simply pass the elements.(ê™´Ò8“‰ƒ“/HŸ˜RMINORZ
+CODE_SMELL
+›
+java:S1488G"bImmediately return this expression instead of assigning it to the temporary variable "modelInput".(€§—úøÿÿÿÿ8¢¦…“/HëœRMINORZ
+CODE_SMELL
+“
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "csvData".(©§‹ª8íš†“/H¥—RMINORZ
+CODE_SMELL
+‚
+java:S1192*"FDefine a constant instead of duplicating this literal "price" 5 times.(ñŒõéıÿÿÿÿ8â ƒ“/HÖ˜RCRITICALZ
+CODE_SMELL
+‹	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€•ú‘ùÿÿÿÿHœ—RMINORZ
+CODE_SMELL
+
+java:S1192%"HDefine a constant instead of duplicating this literal "gearbox" 5 times.(Õ€˜Ç8®Èş‚“/H¾—RCRITICALZ
+CODE_SMELL
+ƒ
+java:S1192$"LDefine a constant instead of duplicating this literal "vehicleType" 5 times.(Ü ¹Ï8®Èş‚“/HÆ—RCRITICALZ
+CODE_SMELL
+
+java:S1192,"JDefine a constant instead of duplicating this literal "kilometer" 3 times.(œ¬¶”8¢¦…“/HçœRCRITICALZ
+CODE_SMELL
+‰
+java:S1192)"RDefine a constant instead of duplicating this literal "notRepairedDamage" 5 times.(¹ÌÆ“8®Èş‚“/H¶—RCRITICALZ
+CODE_SMELL
+„
+java:S1192+"HDefine a constant instead of duplicating this literal "powerPS" 3 times.(Ê‰Æûÿÿÿÿ8¢¦…“/HãœRCRITICALZ
+CODE_SMELL
+q	java:S106N"9Replace this use of System.out or System.err by a logger.(•àùÿÿÿÿ8ƒ‚¦“/H©—RMAJORZ
+CODE_SMELL
+~
+java:S1192#"GDefine a constant instead of duplicating this literal "abtest" 5 times.(–Ëá—8®Èş‚“/H²—RCRITICALZ
+CODE_SMELL
+l	java:S106"9Replace this use of System.out or System.err by a logger.(æ–ğº8â ƒ“/HÚ˜RMAJORZ
+CODE_SMELL

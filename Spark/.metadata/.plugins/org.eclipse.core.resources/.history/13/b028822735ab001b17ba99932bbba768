@@ -1,0 +1,22 @@
+package com.spark.sql;
+
+import org.apache.log4j.Level;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Encoder;
+import org.apache.spark.sql.Encoders;
+import org.glassfish.hk2.utilities.reflection.Logger;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Logger.getLogger("org.apache").setLevel(Level.WARN);
+		
+		Student st=new Student();
+		st.setName("Ram");
+		st.setAge(20);
+		Encoder<Student> studentEncoder=Encoders.bean(Student.class);
+		Dataset<Student> studentData=
+
+	}
+
+}

@@ -1,13 +1,0 @@
-
-…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘Ä•ËHœIRMINORZ
-CODE_SMELL
-s	java:S125"<This block of commented-out lines of code should be removed.(–‚«ûÿÿÿÿ8¢Ê¹‘/HIRMAJORZ
-CODE_SMELL
-s	java:S125"<This block of commented-out lines of code should be removed.(¯ã÷þÿÿÿÿ8¢Ê¹‘/HžIRMAJORZ
-CODE_SMELL
-t
-java:S1854"<Remove this useless assignment to local variable "testData".(“Õ³ðúÿÿÿÿ8úàÆ¹‘/H¡IRMAJORZ
-CODE_SMELL
-e
-java:S1481"-Remove this unused "testData" local variable.(“Õ³ðúÿÿÿÿ8úàÆ¹‘/H¢IRMINORZ
-CODE_SMELL

@@ -1,0 +1,27 @@
+package com.project.carCostPrediction;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Row;
+import org.apache.spark.sql.SparkSession;
+
+public class CarsFeatureSelection {
+	public static Dataset<Row> init(){
+		System.setProperty("hadoop.home.dir","C://Users/Rakesh/hadoop");
+		Logger.getLogger("org.apache").setLevel(Level.WARN);
+		SparkSession spark=SparkSession.builder().appName("Cars Cost Prediction App")
+				          .master("local[*]").config("Key","Value").getOrCreate();
+		Dataset<Row> csvData=spark.read()
+				.option("header", true)
+				.csv("src/main/resources/input/cars_sampled.csv");
+		return csvData;
+	}
+
+	public static void main(String[] args) {
+		Dataset<Row> csvData=init();
+		csvData.show();		
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;cars_sampled.csv&apos; to &apos;input&apos;&#x0D;&#x0A;- Original project: &apos;project&apos;&#x0D;&#x0A;- Destination element: &apos;input&apos;&#x0D;&#x0A;- Original element: &apos;cars_sampled.csv&apos;" description="Copy file" element1="src/main/resources/inputdata/cars_sampled.csv" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1620009977100" target="/sparkProjects/src/main/resources/input" units="0" version="1.0"/>
+</session>

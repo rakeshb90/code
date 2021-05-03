@@ -1,0 +1,36 @@
+package com.project.loanApprovalPrediction;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.spark.ml.clustering.KMeans;
+import org.apache.spark.ml.clustering.KMeansModel;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Row;
+import org.apache.spark.sql.SparkSession;
+
+
+
+
+
+
+
+public class LapByKMeans {
+
+	public static void main(String[] args) {
+		System.setProperty("hadoop.home.dir", "C:/Users/Rakesh/hadoop");
+		Logger.getLogger("org.apache").setLevel(Level.WARN);
+		SparkSession spark=SparkSession.builder()
+				.appName("K Means")
+				.master("local[*]")
+				.config("Key", "Value")
+				.getOrCreate();
+		Dataset<Row> csvData=spark.read()
+				.option("header", true)
+				.csv("src/main/resources/input/loan_approval.csv");
+		KMeans kMeans=new KMeans();
+		kMeans.setK(5);
+		KMeansModel model=kMeans.fit(csvData);
+		csvData.show();
+	}
+
+}

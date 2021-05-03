@@ -1,0 +1,55 @@
+
+i
+java:S2209)"5Change this instance-reference to a static reference.(É–µ8—¼˜ˆ“/HÎ¥RMAJORZ
+CODE_SMELL
+i
+java:S22099"5Change this instance-reference to a static reference.(ÏØÎŒ8º»Èˆ“/Hè¥RMAJORZ
+CODE_SMELL
+i
+java:S2209"5Change this instance-reference to a static reference.(ˆØàä8—¼˜ˆ“/H»¥RMAJORZ
+CODE_SMELL
+l
+java:S18547"9Remove this useless assignment to local variable "dtReg".(ç™êW8º»Èˆ“/Há¥RMAJORZ
+CODE_SMELL
+i
+java:S2209"5Change this instance-reference to a static reference.(ª“š¬8—¼˜ˆ“/H½¥RMAJORZ
+CODE_SMELL
+e
+java:S14819"1Remove this unused "randomForest" local variable.(ÏØÎŒ8º»Èˆ“/Hí¥RMINORZ
+CODE_SMELL
+i
+java:S2209"5Change this instance-reference to a static reference.(üÇÆ¥8—¼˜ˆ“/H¾¥RMAJORZ
+CODE_SMELL
+n
+java:S2209"5Change this instance-reference to a static reference.(´Ïšûÿÿÿÿ8—¼˜ˆ“/H¿¥RMAJORZ
+CODE_SMELL
+n
+java:S14818"5Remove this unused "dtClassification" local variable.(öÎ³ùÿÿÿÿ8º»Èˆ“/Hì¥RMINORZ
+CODE_SMELL
+†	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘Ä•ËHÁ¡RMINORZ
+CODE_SMELL
+n
+java:S2209"5Change this instance-reference to a static reference.(Òùªªøÿÿÿÿ8—¼˜ˆ“/H¼¥RMAJORZ
+CODE_SMELL
+g
+java:S2440"3Remove this instantiation of "ModelFieldSelection".(êÆ·†8—¼˜ˆ“/Hº¥RMAJORZ
+CODE_SMELL
+t
+java:S18549"@Remove this useless assignment to local variable "randomForest".(ÏØÎŒ8º»Èˆ“/Hß¥RMAJORZ
+CODE_SMELL
+q	java:S106$"9Replace this use of System.out or System.err by a logger.(˜âÀÆøÿÿÿÿ8º»Èˆ“/Hä¥RMAJORZ
+CODE_SMELL
+l	java:S106*"9Replace this use of System.out or System.err by a logger.(Ó«êˆ8º»Èˆ“/Hæ¥RMAJORZ
+CODE_SMELL
+q	java:S106+"9Replace this use of System.out or System.err by a logger.(Åÿ°‡øÿÿÿÿ8º»Èˆ“/Hç¥RMAJORZ
+CODE_SMELL
+q	java:S106%"9Replace this use of System.out or System.err by a logger.(€ª…õüÿÿÿÿ8º»Èˆ“/Hå¥RMAJORZ
+CODE_SMELL
+}
+java:S18548"DRemove this useless assignment to local variable "dtClassification".(öÎ³ùÿÿÿÿ8º»Èˆ“/Hà¥RMAJORZ
+CODE_SMELL
+]
+java:S14817"*Remove this unused "dtReg" local variable.(ç™êW8º»Èˆ“/Hë¥RMINORZ
+CODE_SMELL
+q	java:S1060"9Replace this use of System.out or System.err by a logger.(¼Àïüÿÿÿÿ8‰ô×ˆ“/Hú¥RMAJORZ
+CODE_SMELL

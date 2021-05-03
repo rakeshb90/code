@@ -24,6 +24,7 @@ public class AggConecpt {
 				.option("header",true)
 //				.option("inferSchema",true)
 				.csv("src/main/resources/inputdata/cars_sampled.csv");
+		
 		csvData.printSchema();
 		csvData.show();
 //		csvData.groupBy("abtest").max("price").show();// activaly work only with Integer or uncomment 
@@ -53,14 +54,14 @@ public class AggConecpt {
 		
 		
 		
-		
 	   Dataset<Row> totalCost=csvData.agg(sum(col("price").cast(DataTypes.IntegerType)));
 	   Dataset<Row> totalRow=csvData.agg(count(col("price").cast(DataTypes.IntegerType)));
 	   Dataset<Row> avgOfCost=csvData.agg(avg(col("price").cast(DataTypes.IntegerType)));
 //	   double x=(double) avgOfCost.collect();
 	   List<String> strX=avgOfCost.map(row->row.mkString(), Encoders.STRING()).collectAsList();
 	   System.out.println("Cost Average: "+strX);
-	   avgOfCost.show();
+//	   csvData=csvData.na().fill(csvData.agg(avg(col("price").cast(DataTypes.IntegerType))));
+//	   avgOfCost.show();
 	
 	}
 

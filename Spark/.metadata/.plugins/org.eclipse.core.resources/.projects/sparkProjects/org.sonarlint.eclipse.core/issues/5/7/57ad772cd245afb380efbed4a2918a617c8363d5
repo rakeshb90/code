@@ -1,0 +1,29 @@
+
+i
+java:S2209"5Change this instance-reference to a static reference.(ˆØàä8ÉêÑ…“/HRMAJORZ
+CODE_SMELL
+n
+java:S2209"5Change this instance-reference to a static reference.(Òùªªøÿÿÿÿ8ÉêÑ…“/H‚RMAJORZ
+CODE_SMELL
+l	java:S106 "9Replace this use of System.out or System.err by a logger.(¾ÆóÛ8ÉêÑ…“/H†RMAJORZ
+CODE_SMELL
+n
+java:S2209"5Change this instance-reference to a static reference.(·ûØöøÿÿÿÿ8ÉêÑ…“/HƒRMAJORZ
+CODE_SMELL
+n
+java:S2209"5Change this instance-reference to a static reference.(´Ïšûÿÿÿÿ8ÉêÑ…“/H…RMAJORZ
+CODE_SMELL
+q	java:S106"9Replace this use of System.out or System.err by a logger.(ÿÒòñüÿÿÿÿ8ÉêÑ…“/H‡RMAJORZ
+CODE_SMELL
+‹	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€•ú‘ùÿÿÿÿHŸ—RMINORZ
+CODE_SMELL
+h
+java:S2440"4Remove this instantiation of "CarsFeatureSelection".(ë¼Œº8ÿ“¦…“/HğœRMAJORZ
+CODE_SMELL
+i
+java:S2209"5Change this instance-reference to a static reference.(üÇÆ¥8ÉêÑ…“/H„RMAJORZ
+CODE_SMELL
+k	java:S106#"9Replace this use of System.out or System.err by a logger.(õâÂ8‰ô…“/H”RMAJORZ
+CODE_SMELL
+q	java:S106$"9Replace this use of System.out or System.err by a logger.(ğŞµÙşÿÿÿÿ8‰ô…“/H•RMAJORZ
+CODE_SMELL

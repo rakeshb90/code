@@ -1,0 +1,36 @@
+
+g
+java:S1128"3Remove this unused import 'org.apache.log4j.Level'.(Ùã¹¡8Éž¶†“/HùžRMINORZ
+CODE_SMELL
+“
+java:S14880"_Immediately return this expression instead of assigning it to the temporary variable "lrModel".(‰Ë§8ÆºÆ†“/HüŸRMINORZ
+CODE_SMELL
+†	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘Ä•ËHÊžRMINORZ
+CODE_SMELL
+x
+java:S1128"?Remove this unused import 'org.apache.spark.sql.api.java.UDF1'.(€åˆžþÿÿÿÿ8Éž¶†“/H÷žRMINORZ
+CODE_SMELL
+“
+java:S1488P"_Immediately return this expression instead of assigning it to the temporary variable "rfModel".(úÿá¤8¶½Ø†“/HÌ RMINORZ
+CODE_SMELL
+g
+java:S1128"4Remove this unused import 'org.apache.log4j.Logger'.(ñè½8Éž¶†“/HöžRMINORZ
+CODE_SMELL
+‘
+java:S1488D"]Immediately return this expression instead of assigning it to the temporary variable "model".(„Ã½Ð8ÇõÓ†“/H† RMINORZ
+CODE_SMELL
+w
+java:S1128">Remove this unused import 'org.apache.spark.sql.SparkSession'.(ðà·›ýÿÿÿÿ8Éž¶†“/HûžRMINORZ
+CODE_SMELL
+˜
+java:S1488i"_Immediately return this expression instead of assigning it to the temporary variable "lrModel".(Á¹¹áøÿÿÿÿ8¶½Ø†“/HÍ RMINORZ
+CODE_SMELL
+‘
+java:S14889"]Immediately return this expression instead of assigning it to the temporary variable "model".(›þš´8ÆºÆ†“/HýŸRMINORZ
+CODE_SMELL
+{
+java:S1128"GRemove this unused import 'org.apache.spark.ml.tree.DecisionTreeModel'.(Ö…¹¶8ÆºÆ†“/HþŸRMINORZ
+CODE_SMELL
+u
+java:S1128"ARemove this unused import 'org.apache.spark.sql.types.DataTypes'.(•ÿØè8Éž¶†“/HõžRMINORZ
+CODE_SMELL

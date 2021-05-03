@@ -1,0 +1,29 @@
+package com.spark.sql;
+
+import java.util.Collections;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Encoder;
+import org.apache.spark.sql.Encoders;
+import org.apache.spark.sql.SparkSession;
+
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Logger.getLogger("org.apache").setLevel(Level.WARN);
+		SparkSession spark=SparkSession.builder().appName("Sql basics").getOrCreate();
+		
+		Student st=new Student();
+		st.setName("Ram");
+		st.setAge(20);
+		Encoder<Student> studentEncoder=Encoders.bean(Student.class);
+		Dataset<Student> studentData=spark.createDataset(
+				Collections.singletonList(Student), studentEncoder
+				);
+
+	}
+
+}

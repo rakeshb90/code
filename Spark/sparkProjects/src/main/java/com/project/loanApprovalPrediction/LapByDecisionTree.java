@@ -17,7 +17,7 @@ import org.apache.spark.ml.regression.DecisionTreeRegressor;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
-
+import static org.apache.spark.sql.functions.*;
 public class LapByDecisionTree {
 	public static Dataset init() {
 		System.setProperty("hadoop.home.dir", "C:/Users/Rakesh/hadoop");
@@ -32,53 +32,30 @@ public class LapByDecisionTree {
 		return input;
 	}
 	public static Dataset cleanData(Dataset csvData) {
-		csvData=csvData.withColumn("Credit_History", when(col("Credit_History").isNull(),0).otherwise(col("Credit_History")))
-		.withColumn("ApplicantIncome", when(col("ApplicantIncome").isNull(),0).otherwise(col("ApplicantIncome")))
-		.withColumn("CoapplicantIncome", when(col("CoapplicantIncome").isNull(),0).otherwise(col("CoapplicantIncome")))
-        .withColumn("LoanAmount", when(col("LoanAmount").isNull(),0).otherwise(col("LoanAmount")))
-        .withColumn("Loan_Status", when(col("Loan_Status").like("Y"),1).otherwise(0))
-        .withColumn("Loan_Amount_Term", when(col("Loan_Amount_Term").isNull(),0).otherwise(col("Loan_Amount_Term")));
-		return csvData;
+		csvData=csvData.na()
+				.fill(csvData.groupBy("Gender").count().orderBy(desc("Gender")).first().get(0).toString(),new String[] {"Gender"}).na()
+				.fill(csvData.groupBy("Loan_Status").count().orderBy(desc("Loan_Status")).first().get(0).toString(),new String[] {"Loan_Status"}).na()
+				.fill(csvData.groupBy("Self_Employed").count().orderBy(desc("Self_Employed")).first().get(0).toString(),new String[] {"Self_Employed"}).na()
+				.fill(csvData.groupBy("Married").count().orderBy(desc("Married")).first().get(0).toString(),new String[] {"Married"}).na()
+				.fill(csvData.groupBy("Education").count().orderBy(desc("Education")).first().get(0).toString(),new String[] {"Education"}).na()
+				.fill(csvData.groupBy("Property_Area").count().orderBy(desc("Property_Area")).first().get(0).toString(),new String[] {"Property_Area"}).na()
+				.fill(csvData.groupBy("Dependents").count().orderBy(desc("Dependents")).first().get(0).toString(),new String[] {"Dependents"}).na()
+				.fill((double)(int) csvData.groupBy("Credit_History").count().orderBy(desc("Credit_History")).first().get(0),new String[] {"Credit_History"}).na()
+			    .fill(csvData.stat().approxQuantile("Loan_Amount_Term", new double[] {0.5}, 0.000000005)[0],new String[] {"Loan_Amount_Term"}).na()
+			    .fill(csvData.stat().approxQuantile("LoanAmount", new double[] {0.5}, 0.000000005)[0],new String[] {"LoanAmount"});
+	
+
+				return csvData;
 	}
 	public static Dataset stringToInteger(Dataset csvData) {
 
+		 csvData=csvData.drop("Loan_ID");
+			StringIndexer dataIndex=new StringIndexer()
+					.setInputCols(new String[] {"Loan_Status","Gender","Self_Employed","Married","Education","Property_Area","Dependents"})
+					.setOutputCols(new String[] {"Loan_StatusIndex","GenderIndex","Self_EmployedIndex","MarriedIndex","EducationIndex","Property_AreaIndex","DependentsIndex"})
+					.setHandleInvalid("keep");
+			csvData=dataIndex.fit(csvData).transform(csvData);
 
-//		csvData=csvData.withColumnRenamed("LoanAmount", "label");
-		StringIndexer GenderIndex=new StringIndexer()
-				.setInputCol("Gender")
-				.setOutputCol("GenderIndex")
-				.setHandleInvalid("keep");
-		csvData=GenderIndex.fit(csvData).transform(csvData);
-		
-		StringIndexer Self_EmployedIndex=new StringIndexer()
-				.setInputCol("Self_Employed")
-				.setOutputCol("Self_EmployedIndex")
-				.setHandleInvalid("keep");
-		csvData=Self_EmployedIndex.fit(csvData).transform(csvData);
-		
-		StringIndexer MarriedIndex=new StringIndexer()
-				.setInputCol("Married")
-				.setOutputCol("MarriedIndex")
-				.setHandleInvalid("keep");
-		csvData=MarriedIndex.fit(csvData).transform(csvData);
-		
-		StringIndexer EducationIndex=new StringIndexer()
-				.setInputCol("Education")
-				.setOutputCol("EducationIndex")
-				.setHandleInvalid("keep");
-		csvData=EducationIndex.fit(csvData).transform(csvData);
-		
-		StringIndexer Property_AreaIndex=new StringIndexer()
-				.setInputCol("Property_Area")
-				.setOutputCol("Property_AreaIndex")
-				.setHandleInvalid("skip");
-		csvData=Property_AreaIndex.fit(csvData).transform(csvData);
-		
-		StringIndexer DependentsIndex=new StringIndexer()
-				.setInputCol("Dependents")
-				.setOutputCol("DependentsIndex")
-				.setHandleInvalid("keep");
-		csvData=DependentsIndex.fit(csvData).transform(csvData);
      return csvData;
 	}
 	public static DecisionTreeRegressionModel decisonTreeRegression(Dataset<Row> trainingData) {
@@ -113,6 +90,10 @@ public class LapByDecisionTree {
 		VectorAssembler assembler=new VectorAssembler()
 				.setInputCols(new String[] {"GenderIndex","MarriedIndex","EducationIndex","Self_EmployedIndex","ApplicantIncome","CoapplicantIncome","Loan_Amount_Term","Credit_History","Property_AreaIndex","LoanAmount"})
 				.setOutputCol("features");
+		
+		
+		inputData=inputData.withColumn("Loan_Status", when(col("Loan_Status").like("Y"),1).otherwise(0));
+		  
 		Dataset<Row> modelInput=assembler.transform(inputData)
 				.select("Loan_Status","features")
 				.withColumnRenamed("Loan_Status", "label");
