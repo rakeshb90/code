@@ -1,71 +1,86 @@
 
-ƒ
-java:S1192)"GDefine a constant instead of duplicating this literal "Gender" 5 times.(çã¾ùÿÿÿÿ8â½òí’/H‹¡RCRITICALZ
-CODE_SMELL
-†	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘Ä•ËHâ RMINORZ
-CODE_SMELL
-‚
-java:S1192."KDefine a constant instead of duplicating this literal "LoanAmount" 4 times.(Á¢Üí8ƒ¢©º‘/HÛ RCRITICALZ
-CODE_SMELL
-n
-java:S1128":Remove this unused import 'org.apache.spark.sql.Encoders'.(¡•Ø8‰­Ş’/Hì RMINORZ
-CODE_SMELL
-d
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ïºş’/H¡RMINORZ
-CODE_SMELL
-l	java:S106$"9Replace this use of System.out or System.err by a logger.(Ğ—¢Ã8Ìê€î’/Hş¡RMAJORZ
-CODE_SMELL
-c
-java:S37404"/Provide the parametrized type for this generic.(·ã¼ï8â½òí’/Hø RMAJORZ
-CODE_SMELL
 u
-java:S1128"ARemove this unused import 'org.apache.spark.sql.types.DataTypes'.(•ÿØè8‚Ä…‘’/Hé RMINORZ
+java:S1128"ARemove this unused import 'org.apache.spark.sql.types.DataTypes'.(•ÿØè8‚Ä…‘’/H“°RMINORZ
 CODE_SMELL
-‘
-java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "input".(·â¿í8â¡–‡“/H’¢RMINORZ
+l	java:S106$"9Replace this use of System.out or System.err by a logger.(Ğ—¢Ã8Ìê€î’/H£°RMAJORZ
 CODE_SMELL
-„
-java:S1192*"HDefine a constant instead of duplicating this literal "Married" 5 times.(ô±› ıÿÿÿÿ8â½òí’/H‘¡RCRITICALZ
+l	java:S106s"9Replace this use of System.out or System.err by a logger.(”Œ¸8†¢è‡“/H¤°RMAJORZ
 CODE_SMELL
-›
-java:S1488M"bImmediately return this expression instead of assigning it to the temporary variable "modelInput".(€§—úøÿÿÿÿ8â¡–‡“/H“¢RMINORZ
-CODE_SMELL
-l
-java:S3878<"8Remove this array creation and simply pass the elements.(”»Ì¿8¡ù¸‡“/H•£RMINORZ
-CODE_SMELL
-c
-java:S3740'"/Provide the parametrized type for this generic.(éƒ‘8â½òí’/Hê RMAJORZ
-CODE_SMELL
-…
-java:S1192-"ODefine a constant instead of duplicating this literal "Credit_History" 4 times.(À³ó,8ƒ¢©º‘/Hı RCRITICALZ
-CODE_SMELL
-q	java:S106W"9Replace this use of System.out or System.err by a logger.(®Ú³ğúÿÿÿÿ8«÷õ’/H¡RMAJORZ
-CODE_SMELL
-Š
-java:S1192,"NDefine a constant instead of duplicating this literal "Self_Employed" 5 times.(Ü½ğ¤úÿÿÿÿ8â½òí’/Hò RCRITICALZ
+†	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘Ä•ËH”°RMINORZ
 CODE_SMELL
 ˆ
-java:S1192/"QDefine a constant instead of duplicating this literal "Loan_Amount_Term" 3 times.(²—İ8ƒ¢©º‘/Hã RCRITICALZ
+java:S1192/"QDefine a constant instead of duplicating this literal "Loan_Amount_Term" 3 times.(²—İ8ƒ¢©º‘/H¬°RCRITICALZ
 CODE_SMELL
-c
-java:S3740'"/Provide the parametrized type for this generic.(éƒ‘8ƒ¢©º‘/HÖ RMAJORZ
+n
+java:S1128":Remove this unused import 'org.apache.spark.sql.Encoders'.(¡•Ø8‰­Ş’/H‘°RMINORZ
 CODE_SMELL
-c
-java:S37404"/Provide the parametrized type for this generic.(·ã¼ï8 Í°º‘/Hî¡RMAJORZ
+l
+java:S3878<"8Remove this array creation and simply pass the elements.(”»Ì¿8¡ù¸‡“/H÷¯RMINORZ
 CODE_SMELL
 
-java:S11929"QDefine a constant instead of duplicating this literal "Loan_StatusIndex" 3 times.(Á¾¶‰ùÿÿÿÿ8•ˆÙ‡“/HÈ¤RCRITICALZ
+java:S11929"QDefine a constant instead of duplicating this literal "Loan_StatusIndex" 3 times.(Á¾¶‰ùÿÿÿÿ8•ˆÙ‡“/H‚°RCRITICALZ
+CODE_SMELL
+„
+java:S1192*"HDefine a constant instead of duplicating this literal "Married" 5 times.(ô±› ıÿÿÿÿ8â½òí’/H¸°RCRITICALZ
 CODE_SMELL
 ‚
-java:S1192+"KDefine a constant instead of duplicating this literal "Dependents" 5 times.(ë±ëº8â½òí’/Hí RCRITICALZ
+java:S1192+"KDefine a constant instead of duplicating this literal "Dependents" 5 times.(ë±ëº8â½òí’/H‹°RCRITICALZ
 CODE_SMELL
-q	java:S106f"9Replace this use of System.out or System.err by a logger.(¤ø»ÿÿÿÿÿ8†¢è‡“/H¤¥RMAJORZ
+…
+java:S1192K"IDefine a constant instead of duplicating this literal "features" 4 times.(åçéòûÿÿÿÿ8¬¿Ä‹“/H§°RCRITICALZ
 CODE_SMELL
-l	java:S106i"9Replace this use of System.out or System.err by a logger.(”Œ¸8†¢è‡“/H¥¥RMAJORZ
+…
+java:S1192-"ODefine a constant instead of duplicating this literal "Credit_History" 4 times.(À³ó,8ƒ¢©º‘/H²°RCRITICALZ
 CODE_SMELL
-l	java:S106m"9Replace this use of System.out or System.err by a logger.(ø—Ä8†¢è‡“/H¦¥RMAJORZ
+c
+java:S3740'"/Provide the parametrized type for this generic.(éƒ‘8â½òí’/H¡°RMAJORZ
 CODE_SMELL
-l	java:S106o"9Replace this use of System.out or System.err by a logger.(ıíÄÜ8†¢è‡“/H§¥RMAJORZ
+‚
+java:S1192."KDefine a constant instead of duplicating this literal "LoanAmount" 6 times.(Á¢Üí8ƒ¢©º‘/Hø¯RCRITICALZ
 CODE_SMELL
-q	java:S106s"9Replace this use of System.out or System.err by a logger.(³”Çìıÿÿÿÿ8†¢è‡“/H¨¥RMAJORZ
+Š
+java:S1192,"NDefine a constant instead of duplicating this literal "Self_Employed" 5 times.(Ü½ğ¤úÿÿÿÿ8â½òí’/Hì¯RCRITICALZ
+CODE_SMELL
+q	java:S106p"9Replace this use of System.out or System.err by a logger.(¤ø»ÿÿÿÿÿ8†¢è‡“/H¦°RMAJORZ
+CODE_SMELL
+›
+java:S1488W"bImmediately return this expression instead of assigning it to the temporary variable "modelInput".(€§—úøÿÿÿÿ8¬¿Ä‹“/H¢°RMINORZ
+CODE_SMELL
+l	java:S106w"9Replace this use of System.out or System.err by a logger.(ø—Ä8†¢è‡“/H¥°RMAJORZ
+CODE_SMELL
+c
+java:S37404"/Provide the parametrized type for this generic.(·ã¼ï8â½òí’/HŠ°RMAJORZ
+CODE_SMELL
+›
+java:S1488M"bImmediately return this expression instead of assigning it to the temporary variable "modelInput".(€§—úøÿÿÿÿ8â¡–‡“/H¾°RMINORZ
+CODE_SMELL
+d
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ïºş’/H€°RMINORZ
+CODE_SMELL
+q	java:S106}"9Replace this use of System.out or System.err by a logger.(³”Çìıÿÿÿÿ8†¢è‡“/H±°RMAJORZ
+CODE_SMELL
+l	java:S106y"9Replace this use of System.out or System.err by a logger.(ıíÄÜ8†¢è‡“/H°RMAJORZ
+CODE_SMELL
+‘
+java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "input".(·â¿í8â¡–‡“/H•°RMINORZ
+CODE_SMELL
+c
+java:S3740'"/Provide the parametrized type for this generic.(éƒ‘8ƒ¢©º‘/Hò¯RMAJORZ
+CODE_SMELL
+c
+java:S37404"/Provide the parametrized type for this generic.(·ã¼ï8 Í°º‘/H–°RMAJORZ
+CODE_SMELL
+ƒ
+java:S1192)"GDefine a constant instead of duplicating this literal "Gender" 5 times.(çã¾ùÿÿÿÿ8â½òí’/H›°RCRITICALZ
+CODE_SMELL
+q	java:S106a"9Replace this use of System.out or System.err by a logger.(®Ú³ğúÿÿÿÿ8«÷õ’/H’°RMAJORZ
+CODE_SMELL
+‡
+java:S1192C"PDefine a constant instead of duplicating this literal "EducationVector" 3 times.(İğ8“µ×­“/Hë²RCRITICALZ
+CODE_SMELL
+‹
+java:S1192C"TDefine a constant instead of duplicating this literal "Self_EmployedVector" 3 times.(İğ8“µ×­“/Hï²RCRITICALZ
+CODE_SMELL
+…
+java:S1192C"NDefine a constant instead of duplicating this literal "MarriedVector" 3 times.(İğ8“µ×­“/Hó²RCRITICALZ
 CODE_SMELL

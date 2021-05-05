@@ -1,0 +1,19 @@
+
+object MapAndSet {
+  def main(args:Array[String]){
+    // Map 
+    var users:Map[Int,String]=Map(401->"Rk123",404->"rk404",808->"Rk808",808->"Rk808");
+    var student:Map[Int,String]=Map(801->"Ram",802->"Raj",803->"Ramesh",808->"Bhola");
+    println(users);
+     println(users.keys);
+      println(users.values);
+      users.keys.foreach{
+        key=>
+           println("Key: "+key+ " Value: "+users(key));
+      }
+       (student).keys.foreach{
+        key=>
+           println("Key: "+key+ " Value: "+users(key));
+      }
+  }
+}

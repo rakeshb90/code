@@ -1,0 +1,63 @@
+package com.project.loanApprovalPrediction;
+
+import org.apache.spark.ml.classification.DecisionTreeClassificationModel;
+import org.apache.spark.ml.classification.LogisticRegressionModel;
+import org.apache.spark.ml.classification.LogisticRegressionSummary;
+import org.apache.spark.ml.classification.RandomForestClassificationModel;
+import org.apache.spark.ml.regression.DecisionTreeRegressionModel;
+import org.apache.spark.ml.regression.LinearRegressionModel;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Row;
+
+public class ModelDriver {
+
+	public static void main(String[] args) {
+	ModelFieldSelection feature=new ModelFieldSelection();
+	Models models=new Models();
+	
+	Dataset<Row> csvData=feature.init();
+	
+	csvData=feature.cleanData(csvData);
+	
+	csvData=feature.stringIndexing(csvData);
+	
+	csvData=feature.indexToVector(csvData);
+	
+	Dataset<Row> modelInput=feature.getModelInput(csvData);
+	
+	Dataset<Row>[] modelData=modelInput.randomSplit(new double[] {0.8,0.2});
+	
+	Dataset<Row>trainData=modelData[0];
+	Dataset<Row>testData=modelData[1];
+	
+	
+	// get all models 
+	LinearRegressionModel linearReg = models.linearRegModel(trainData);
+	System.out.println("Training r2 :"+linearReg.summary().r2()+" , and RMSE: "+linearReg.summary().rootMeanSquaredError());
+	System.out.println("Testing r2 :"+linearReg.evaluate(testData).r2()+" , and RMSE: "+linearReg.evaluate(testData).rootMeanSquaredError());
+    linearReg.transform(testData).show();
+	
+	
+	LogisticRegressionModel logisticReg = models.logisticModel(trainData);
+	System.out.println("Model Accuracy: "+logisticReg.summary().accuracy());
+	System.out.println("Test Accuracy: "+logisticReg.evaluate(testData).accuracy());
+	LogisticRegressionSummary summary = logisticReg.evaluate(testData);
+	double truePositive = summary.truePositiveRateByLabel()[1];
+	double falsePositive = summary.falsePositiveRateByLabel()[0];
+	
+	System.out.println("Positive likellyhood: "+truePositive/(truePositive+falsePositive));
+	Dataset<Row> predictions = summary.predictions().groupBy("label","prediction").count();
+	predictions.show();
+	
+	
+	
+	
+	DecisionTreeRegressionModel dtReg = models.getDecisionTreeRegModel(trainData);
+	DecisionTreeClassificationModel dtClassification = models.getDecisionTreeClassificationModel(trainData);
+	RandomForestClassificationModel randomForest = models.randomForestClassification(trainData);
+	
+	
+
+	}
+
+}

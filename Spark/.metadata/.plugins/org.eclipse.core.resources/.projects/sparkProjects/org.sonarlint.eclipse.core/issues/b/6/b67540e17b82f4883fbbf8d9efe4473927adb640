@@ -1,55 +1,78 @@
 
-i
-java:S2209)"5Change this instance-reference to a static reference.(É–µ8—¼˜ˆ“/HÎ¥RMAJORZ
+‘
+java:S1192,"ZDefine a constant instead of duplicating this literal "The Accuracy of Model is " 3 times.(‚ŒŞÄ8şï°‹“/H¯¯RCRITICALZ
 CODE_SMELL
-i
-java:S22099"5Change this instance-reference to a static reference.(ÏØÎŒ8º»Èˆ“/Hè¥RMAJORZ
+l	java:S106,"9Replace this use of System.out or System.err by a logger.(‚ŒŞÄ8¼Ö‹“/HÃ¯RMAJORZ
 CODE_SMELL
-i
-java:S2209"5Change this instance-reference to a static reference.(ˆØàä8—¼˜ˆ“/H»¥RMAJORZ
+q	java:S106"9Replace this use of System.out or System.err by a logger.(˜âÀÆøÿÿÿÿ8º»Èˆ“/H¾¯RMAJORZ
 CODE_SMELL
-l
-java:S18547"9Remove this useless assignment to local variable "dtReg".(ç™êW8º»Èˆ“/Há¥RMAJORZ
+q	java:S106"9Replace this use of System.out or System.err by a logger.(¼Àïüÿÿÿÿ8º»Èˆ“/H¶¯RMAJORZ
 CODE_SMELL
-i
-java:S2209"5Change this instance-reference to a static reference.(ª“š¬8—¼˜ˆ“/H½¥RMAJORZ
+t	java:S125<"<This block of commented-out lines of code should be removed.(¨şëûÿÿÿÿ8¼Ö‹“/HÑ¯RMAJORZ
 CODE_SMELL
-e
-java:S14819"1Remove this unused "randomForest" local variable.(ÏØÎŒ8º»Èˆ“/Hí¥RMINORZ
-CODE_SMELL
-i
-java:S2209"5Change this instance-reference to a static reference.(üÇÆ¥8—¼˜ˆ“/H¾¥RMAJORZ
+q	java:S106"9Replace this use of System.out or System.err by a logger.(€ª…õüÿÿÿÿ8‰ô×ˆ“/HÒ¯RMAJORZ
 CODE_SMELL
 n
-java:S2209"5Change this instance-reference to a static reference.(´Ïšûÿÿÿÿ8—¼˜ˆ“/H¿¥RMAJORZ
+java:S2209X"5Change this instance-reference to a static reference.(Òùªªøÿÿÿÿ8—¼˜ˆ“/HÁ¯RMAJORZ
+CODE_SMELL
+l	java:S1069"9Replace this use of System.out or System.err by a logger.(¾¼Ã8¼Ö‹“/HÏ¯RMAJORZ
+CODE_SMELL
+{
+java:S1858G"G"toDebugString" returns a string, there's no need to call "toString()".(¾¼Ã8¼Ö‹“/HÄ¯RMINORZ
+CODE_SMELL
+l	java:S106"9Replace this use of System.out or System.err by a logger.(Ó«êˆ8º»Èˆ“/HÔ¯RMAJORZ
+CODE_SMELL
+i
+java:S2209\"5Change this instance-reference to a static reference.(üÇÆ¥8—¼˜ˆ“/H®¯RMAJORZ
 CODE_SMELL
 n
-java:S14818"5Remove this unused "dtClassification" local variable.(öÎ³ùÿÿÿÿ8º»Èˆ“/Hì¥RMINORZ
+java:S2209_"5Change this instance-reference to a static reference.(óÔÒôùÿÿÿÿ8Œ‘è¬“/HÛ¯RMAJORZ
 CODE_SMELL
-†	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘Ä•ËHÁ¡RMINORZ
+i
+java:S2209Z"5Change this instance-reference to a static reference.(ª“š¬8—¼˜ˆ“/H×¯RMAJORZ
 CODE_SMELL
-n
-java:S2209"5Change this instance-reference to a static reference.(Òùªªøÿÿÿÿ8—¼˜ˆ“/H¼¥RMAJORZ
+l	java:S106G"9Replace this use of System.out or System.err by a logger.(¾¼Ã8şï°‹“/HÕ¯RMAJORZ
+CODE_SMELL
+l	java:S106+"9Replace this use of System.out or System.err by a logger.(¾¼Ã8¼Ö‹“/H³¯RMAJORZ
+CODE_SMELL
+i
+java:S2209V"5Change this instance-reference to a static reference.(ˆØàä8—¼˜ˆ“/HÍ¯RMAJORZ
+CODE_SMELL
+l	java:S106H"9Replace this use of System.out or System.err by a logger.(‚ŒŞÄ8¼Ö‹“/HÓ¯RMAJORZ
+CODE_SMELL
+o	java:S125^"<This block of commented-out lines of code should be removed.(À“Äú8Œ‘è¬“/HÚ¯RMAJORZ
+CODE_SMELL
+{
+java:S1858+"G"toDebugString" returns a string, there's no need to call "toString()".(¾¼Ã8şï°‹“/HÇ¯RMINORZ
 CODE_SMELL
 g
-java:S2440"3Remove this instantiation of "ModelFieldSelection".(êÆ·†8—¼˜ˆ“/Hº¥RMAJORZ
+java:S2440S"3Remove this instantiation of "ModelFieldSelection".(êÆ·†8—¼˜ˆ“/H½¯RMAJORZ
 CODE_SMELL
-t
-java:S18549"@Remove this useless assignment to local variable "randomForest".(ÏØÎŒ8º»Èˆ“/Hß¥RMAJORZ
+…
+java:S1192)"IDefine a constant instead of duplicating this literal "accuracy" 3 times.(ê×ïÕûÿÿÿÿ8şï°‹“/H·¯RCRITICALZ
 CODE_SMELL
-q	java:S106$"9Replace this use of System.out or System.err by a logger.(˜âÀÆøÿÿÿÿ8º»Èˆ“/Hä¥RMAJORZ
+l	java:S106:"9Replace this use of System.out or System.err by a logger.(‚ŒŞÄ8şï°‹“/HË¯RMAJORZ
 CODE_SMELL
-l	java:S106*"9Replace this use of System.out or System.err by a logger.(Ó«êˆ8º»Èˆ“/Hæ¥RMAJORZ
+†	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘Ä•ËHÊ¯RMINORZ
 CODE_SMELL
-q	java:S106+"9Replace this use of System.out or System.err by a logger.(Åÿ°‡øÿÿÿÿ8º»Èˆ“/Hç¥RMAJORZ
+t	java:S125."<This block of commented-out lines of code should be removed.(¨şëûÿÿÿÿ8şï°‹“/H¼¯RMAJORZ
 CODE_SMELL
-q	java:S106%"9Replace this use of System.out or System.err by a logger.(€ª…õüÿÿÿÿ8º»Èˆ“/Hå¥RMAJORZ
+„
+java:S1128
+"PRemove this unused import 'org.apache.spark.mllib.tree.model.RandomForestModel'.(Ğ•šÊ8şï°‹“/H»¯RMINORZ
 CODE_SMELL
-}
-java:S18548"DRemove this useless assignment to local variable "dtClassification".(öÎ³ùÿÿÿÿ8º»Èˆ“/Hà¥RMAJORZ
+t	java:S125J"<This block of commented-out lines of code should be removed.(¨şëûÿÿÿÿ8¼Ö‹“/HÈ¯RMAJORZ
 CODE_SMELL
-]
-java:S14817"*Remove this unused "dtReg" local variable.(ç™êW8º»Èˆ“/Hë¥RMINORZ
+q	java:S106"9Replace this use of System.out or System.err by a logger.(Åÿ°‡øÿÿÿÿ8º»Èˆ“/Hµ¯RMAJORZ
 CODE_SMELL
-q	java:S1060"9Replace this use of System.out or System.err by a logger.(¼Àïüÿÿÿÿ8‰ô×ˆ“/Hú¥RMAJORZ
+{
+java:S18589"G"toDebugString" returns a string, there's no need to call "toString()".(¾¼Ã8¼Ö‹“/HØ¯RMINORZ
+CODE_SMELL
+t	java:S125m"<This block of commented-out lines of code should be removed.(¤âØÑøÿÿÿÿ8…°’­“/HÇ±RMAJORZ
+CODE_SMELL
+o	java:S125q"<This block of commented-out lines of code should be removed.(™ã÷Ş8…°’­“/HÉ±RMAJORZ
+CODE_SMELL
+o	java:S125u"<This block of commented-out lines of code should be removed.(“ßî€8…°’­“/HË±RMAJORZ
+CODE_SMELL
+o	java:S125z"<This block of commented-out lines of code should be removed.(®İ¡Ô8…°’­“/HÍ±RMAJORZ
 CODE_SMELL

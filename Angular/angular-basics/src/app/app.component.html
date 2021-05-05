@@ -1,0 +1,57 @@
+<app-header [headerTitle]="title"></app-header>
+<div class="container">
+    <!-- data transfer from child(header-component) to parent(app-component)-->
+    <app-test (parentFun)="parentFun()"></app-test>
+<h1>{{title}}</h1>
+<a routerLinkActive="active" routerLink="test">TEST</a>
+<app-test></app-test>
+<app-login></app-login>
+<router-outlet></router-outlet>
+<button type="button" (click)="getVal(box.value)">Get Name</button><br>
+<input type="text" #box/>
+<h2>Input Name is : {{inputVal}}</h2>
+<!-- <input type="text" (keyup)="getVal($event.target.value)"/> -->
+<h1 *ngIf="show else elseBlock" style="background-color: aqua;" (mouseover)="getName()">Mouse Event</h1>
+<ng-template #elseBlock>
+<h3>Mouse over effect is hidden</h3>
+</ng-template>
+<button (click)="showTag()">Show Mouser Over Effect</button><br><br>
+ <!-- differnce between property bindng[] and interpolation{{}} -->
+ <input type="text" [disabled]="disableBox" [value]="name"><br>
+ <input type="text" disabled={{disableBox}} value={{name}}><br>
+ <button type="button" (click)="enableBox()">Enable Box</button>
+  <!-- switch case -->
+ <div [ngSwitch]="color">
+     <h2 style="color: red;" *ngSwitchCase="'red'"> Red Color</h2>
+     <h2 style="color: green;" *ngSwitchCase="'green'"> Green Color</h2>
+     <h2 style="color: blue;" *ngSwitchCase="'blue'"> Blue Color</h2>
+     <h2 style="color: pink;" *ngSwitchCase="'pink'"> pink Color</h2>
+     <h2 style="color: black;" *ngSwitchDefault> Default Color</h2>
+     
+ </div>
+<!-- for loop -->
+<table border="2">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr *ngFor="let item of HR">
+    <td> {{item.name}}</td>
+    <td>{{item.age}}</td>
+    </tr>
+
+</table>
+<!-- form filling -->
+<div>
+    <h2>This is Form  area:</h2>
+<form #simpleForm="ngForm" (ngSubmit)="formVal(simpleForm.value)">
+    <input type="text"  placeholder="Name"  ngModel name="name"/><br><br>
+    <input type="text" placeholder="Age" ngModel name="age"/><br><br>
+    <input type="password"  placeholder="Password" ngModel name="password"/><br><br>
+    <button type="submit" mat-raised-button color="primary"> angular material Save button</button>
+</form>
+</div>
+ <h2 [style.color]="errColor?'red':'green'">color binding</h2>
+ <button type="button" class="btn btn-primary" (click)="changeColor()">Change color</button>
+</div>
+<app-footer></app-footer>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.apache.spark.api.java.JavaPairRDD"/>
 <fullyQualifiedTypeName name="org.apache.spark.api.java.Optional"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="scala.Tuple2"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="org.apache.spark.ml.classification.LogisticRegressionModel"/>
 <fullyQualifiedTypeName name="org.apache.spark.sql.Dataset"/>
 <fullyQualifiedTypeName name="org.apache.spark.sql.Row"/>
+<fullyQualifiedTypeName name="org.apache.spark.mllib.tree.model.RandomForestModel"/>
 </qualifiedTypeNameHistroy>

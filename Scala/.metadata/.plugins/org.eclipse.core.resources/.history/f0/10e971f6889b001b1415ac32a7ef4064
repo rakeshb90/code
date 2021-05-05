@@ -1,0 +1,23 @@
+
+
+object Function {
+  object Math{
+    def div(x:Int,y:Int):Int={
+    return x/y;
+  }
+  }
+  def add(x:Int,y:Int):Int={
+    return x+y;
+  }
+   def sub(x:Int,y:Int):Int={
+     x-y;
+  }
+    def mul(x:Int,y:Int)=x*y;
+    
+  def main(args:Array[String]){
+    println("Add 3,4:"+add(3,5));
+    println("sub 6,4:"+sub(6,4));
+    println("mul 3,4:"+mul(3,5));
+    println("div 9,4:"+Math.div(9,4));
+  }
+}

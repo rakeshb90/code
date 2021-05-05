@@ -1,0 +1,12 @@
+<div class="container">
+<h1>Welcome to my project: {{appName}}!!</h1>
+<div class="btn-toolbar">
+<a routerLinkActive="active" routerLink="hr" class="btn btn-primary">HR</a>
+<a routerLinkActive="active" routerLink="list" class="btn btn-primary">HR List</a>
+</div>
+<router-outlet></router-outlet>
+<h3>I have to work on {{moduleName}}</h3>
+<h4>HR: {{HR.name}}, {{HR.email}}, {{HR.mobile}}</h4>
+<h4>{{url}}</h4>
+</div>
+

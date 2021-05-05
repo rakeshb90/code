@@ -1,0 +1,13 @@
+
+object MapAndSet {
+  def main(args:Array[String]){
+    var users:Map[Int,String]=Map(401->"Rk123",404->"rk404",808->"Rk808");
+    println(users);
+     println(users.keys);
+      println(users.values);
+      users.keys.foreach{
+        key=>
+           println("Key: "+key+ " Value: "+users(key));
+      }
+  }
+}

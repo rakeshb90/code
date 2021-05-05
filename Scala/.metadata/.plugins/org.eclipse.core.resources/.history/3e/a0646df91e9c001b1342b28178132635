@@ -1,0 +1,11 @@
+
+
+object mapAndFilter {
+  def main(args:Array[String]){
+    val list=List(1,2,3,4,5);
+    println(list.map(_*10));
+    println(list.map(x=>x*10));
+    println(List(List(1,2,3),List(2,9)).flatten);
+    
+  }
+}

@@ -45,7 +45,9 @@ public class Models {
 					
 			TrainValidationSplitModel model=tvs.fit(modelInput);
 			
-			LinearRegressionModel lrModel=(LinearRegressionModel) model.bestModel();
+//			LinearRegressionModel lrModel=(LinearRegressionModel) model.bestModel();
+			
+			LinearRegressionModel lrModel=linearRegression.fit(modelInput);
 			return lrModel;
 		}
 		

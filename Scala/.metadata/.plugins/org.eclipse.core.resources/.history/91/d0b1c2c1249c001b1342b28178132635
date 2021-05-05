@@ -1,0 +1,16 @@
+
+
+object ReduceFoldScan {
+  def main(args:Array[String]){
+    val lst=List(1,2,3,4);
+    println(lst.reduceLeft(_+_));
+    println(lst.reduceLeft(_-_));
+    println(lst.reduceLeft((x,y)=>{println(x+" "+y); x-y}));
+    println(lst.reduceRight((x,y)=>{println(x+" "+y); x-y}));
+    println(lst.foldLeft(100)(_+_));
+    println(lst.scanLeft(10)(_+_));
+    
+    
+  }
+  
+}

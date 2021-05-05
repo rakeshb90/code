@@ -79,6 +79,16 @@ public static Dataset<Row> getModelInput(Dataset<Row> csvData){
 			.withColumnRenamed("Loan_StatusIndex", "label");
     return modelInput;
 }
+public static Dataset<Row> getModelInputForLinearReg(Dataset<Row> csvData){
+	VectorAssembler assembler=new VectorAssembler()
+			.setInputCols(new String[] {"ApplicantIncome","CoapplicantIncome","EducationVector","DependentsVector","Self_EmployedVector","MarriedVector"})
+			.setOutputCol("features");
+	
+	Dataset<Row> modelInput=assembler.transform(csvData)
+			.select("LoanAmount","features")
+			.withColumnRenamed("LoanAmount", "label");
+    return modelInput;
+}
 	
 	public static void checkCorrelation(Dataset<Row> inputData) {
 		 for(String col1:inputData.columns()) {
